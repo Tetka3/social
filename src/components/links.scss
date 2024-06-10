@@ -1,0 +1,33 @@
+.links{
+    display: flex;
+    color: white;
+    height: 20px;
+    background-color: rgb(22,58,106);
+    .left{
+        flex: 2;
+        ul{
+            list-style: none;
+            li{
+                display: inline;
+                margin-right: 10px;
+                padding: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+    .center{
+        flex: 1;
+    }
+    .right{
+        flex: 1;
+        ul{
+            list-style: none;
+            li{
+                display: inline;
+                margin-right: 10px;
+                padding: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}

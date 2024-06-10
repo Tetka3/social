@@ -1,0 +1,49 @@
+*{
+    margin: 0;    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 80px;
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+    
+    .leftnav{
+        display: flex;
+        gap: 10px;
+        flex: 1;
+        margin-left: 40px;
+        .left{
+            img{
+                height: 40px;
+                width: 40px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;            
+            font-size: 12px;
+            height: 40px;
+            margin-top: 5px;         
+            
+        }
+        
+    }
+    .centernav{
+        flex: 2;
+    }
+    .rightnav{
+        flex: 1;
+        
+        button{
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+   
+    
+}
