@@ -1,5 +1,6 @@
 *{
-    margin: 0;    
+    margin: 0;
+    font-size: 8px;    
 }
 .navbar{
     display: flex;
@@ -12,8 +13,9 @@
     .leftnav{
         display: flex;
         gap: 10px;
-        flex: 1;
-        margin-left: 40px;
+        flex: 2;
+        margin-left: 20px;
+        
         .left{
             img{
                 height: 40px;
@@ -24,10 +26,12 @@
         }
         .right{
             display: flex;
-            flex-direction: column;            
-            font-size: 12px;
+            flex-direction: column;                       
+            font-size: 10px;
             height: 40px;
-            margin-top: 5px;         
+            margin-top: 8px;
+            gap: 3px;
+                              
             
         }
         
@@ -36,7 +40,10 @@
         flex: 2;
     }
     .rightnav{
-        flex: 1;
+        display: flex;
+        flex: 2;
+        justify-content: flex-end;
+        margin-right: 20px;
         
         button{
             padding: 5px;

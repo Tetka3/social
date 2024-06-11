@@ -1,14 +1,33 @@
-import React from 'react'
+
 import Navbar from "../components/Navbar";
-import Links from "../components/Links";
+import Hero from '../components/Hero';
+import Social from '../components/Social';
+import Website from '../components/Website';
+import Video from '../components/Video';
+import Business from '../components/Business';
+import Follow from '../components/Follow';
+import Booster from '../components/Booster';
+import Bookmark from '../components/Bookmark';
+import "./home.scss";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
         <Navbar />
-        <Links />
-      home 
-    </div>
+        <Hero />
+        <div className="cards">
+          <Social />
+          <Website />
+          <Video />
+          <Business />
+        </div>
+        <div className="about">
+          <Follow />
+          <Booster />
+          <Bookmark />          
+        </div>
+      
+    </>
   )
 }
 
