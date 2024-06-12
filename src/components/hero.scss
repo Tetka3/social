@@ -1,4 +1,30 @@
 .hero{
-    height: 180px;
-    border: 1px solid black;
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+        
+    .video{
+        display: flex;
+        align-items: center;
+        height: 200px;
+        width: 95%;
+        video{
+            height: 220px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+
+        }
+        .text{
+            position: absolute;
+            background-color: red;
+            border-radius: 5px;
+            padding: 5px;
+            max-width: max-content;
+            button{
+                margin-top: 5px;
+            }
+        }
+    }
 }
