@@ -1,22 +1,31 @@
-// import { Route, createBrowserRouter, CreateRoutesFromElements, RouterProvider  } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-// import MainLayout from './layouts/MainLayout';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route index element={<HomePage />} />      
+    </Route>
+  )
+);
 
-function App() {
-  // const router = createBrowserRouter(
-  //   CreateRoutesFromElements (
-  //     <Route path="/" element={<MainLayout />}>      
-  //       <Route index element={<HomePage />} />
-  //       </Route>)      
-  // );  
+function App() {  
+  
 
   return (
     <>
-    <HomePage/>
+     <RouterProvider router={router}/>
+      
     </>
-  );
-  
+  )
 }
 
-export default App;
+export default App
+
+
+
