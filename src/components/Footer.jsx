@@ -1,8 +1,8 @@
-import React from 'react'
+import "./business.scss";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer">
       footer 
     </div>
   )

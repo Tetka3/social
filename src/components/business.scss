@@ -23,6 +23,7 @@
             border-radius: 5px;
             background-color: rgb(11,102,35);
             color: white;
+            cursor: pointer;
         }
     }
 }
@@ -51,6 +52,7 @@
             border-radius: 5px;
             background-color: rgb(11,102,35);
             color: white;
+            cursor: pointer;
         }
     }
 
@@ -80,6 +82,7 @@
             border-radius: 5px;
             background-color: rgb(11,102,35);
             color: white;
+            cursor: pointer;
         }
     }
 
@@ -109,15 +112,20 @@
             border-radius: 5px;
             background-color: rgb(11,102,35);
             color: white;
+            cursor: pointer;
         }
     }
 
 }
 .follow, .booster,.bookmark{
-    border: 1px solid black;
+    border: 1px solid rgb(238, 226, 226); 
     height: 100px;
     width: 30%;
     padding: 20px;
     border-radius: 5px;
     margin-top: 0px;
+}
+.footer{
+    height: 30vh;
+    background-color: rgb(80,86,93);
 }
