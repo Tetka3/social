@@ -9,10 +9,11 @@ import Follow from '../components/Follow';
 import Booster from '../components/Booster';
 import Bookmark from '../components/Bookmark';
 import "./home.scss";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
-    <>
+    <div className="home">
         <Navbar />
         <Hero />
         <div className="cards">
@@ -26,8 +27,8 @@ const HomePage = () => {
           <Booster />
           <Bookmark />          
         </div>
-      
-    </>
+        <Footer/>
+    </div>
   )
 }
 

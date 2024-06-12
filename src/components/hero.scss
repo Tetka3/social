@@ -1,12 +1,12 @@
 .hero{
-    height: 380px;
+    height: 230px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 5px;
         
     .video{
         display: flex;
-        align-items: center;
+        align-items: center;        
         height: 200px;
         width: 95%;
         video{
@@ -22,8 +22,10 @@
             border-radius: 5px;
             padding: 5px;
             max-width: max-content;
+            
             button{
                 margin-top: 5px;
+                cursor: pointer;
             }
         }
     }

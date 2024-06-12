@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="video">
         <video src={start} autoPlay loop muted />
         <div className="text">
-          <p>Get Followers and Likes gog therehjuuewghhhsduu</p>
+          <p>Get Followers and Likes</p>
           <button>Register</button>
       </div>
       </div>     
