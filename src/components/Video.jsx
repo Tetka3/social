@@ -7,7 +7,12 @@ const Video = () => {
       <div className="image">
         <img src={video} alt="" />
       </div>
-      video
+      <div className="texted">
+        <h3>Videos & Tracks</h3>
+        <p>Get your videos and tracks to the right people to improve your exposure to different groups of people</p>
+        <button>Sign Up Free</button>
+      </div>
+      
     </div>
   )
 }
