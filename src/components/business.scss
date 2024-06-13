@@ -127,12 +127,30 @@
 }
 .system{
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid rgb(224, 211, 211);
+    border-top: 1px solid rgb(224, 211, 211);;
+    padding: 20px;
     .leftSystem{
-        flex: 1;
+        flex: 1;        
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        img{
+            height: 120px;
+            width: 70%;
+            object-fit: contain;
+        }
+
     }
     .explanation{
         flex: 3;
+        margin-top: 20px;
+        gap: 10px;
     }
 }
 
