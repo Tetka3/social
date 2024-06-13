@@ -2,6 +2,7 @@
 import Navbar from '../components/Navbar'
 import Links from '../components/Links'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 import MainElements from '../components/MainElements'
 import "./home.scss";
 
@@ -14,6 +15,7 @@ const Dashboard = () => {
         <Sidebar/>
         <MainElements/>
       </div>
+      <Footer/>
     </div>
   )
 }

@@ -194,6 +194,7 @@
 .buttons{
     display: flex;
     gap: 1px;
+    margin-top: 20px;
     .left, .right{
         width: 50%;
         
@@ -211,6 +212,66 @@
         width: 50%;
     }  
     
+}
+.earnCoins{
+    margin: 10px 0px 10px 0px;
+    button{
+        background-color: rgb(46, 206, 153);
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        padding: 5px;
+        color: white;
+    }
+}
+.yourAccount{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(59, 150, 150);
+    .account{
+        background-color: rgb(59, 150, 150);
+        padding: 10px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+
+    }
+}
+.bonus{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid rgb(59, 150, 150);
+    .yourBonus{
+        background-color: rgb(59, 150, 150);
+        padding: 10px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+
+    }
+
+}
+.updates{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(59, 150, 150);
+    .recentUpdates{
+        background-color: rgb(59, 150, 150);
+        padding: 10px;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+
+    }
 }
 .footer{
     height: 30vh;
