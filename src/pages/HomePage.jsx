@@ -11,6 +11,7 @@ import Bookmark from '../components/Bookmark';
 import "./home.scss";
 import Footer from "../components/Footer";
 import System from "../components/System";
+import Comments from "../components/Comments";
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
           <Bookmark />          
         </div>
           <System />
+          <Comments/>
         <Footer/>
     </div>
   )

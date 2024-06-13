@@ -9,7 +9,7 @@ const System = () => {
             <img src={system} alt="blog"/>
         </div>
         <div className="explanation">
-            <p>We are the most advanced social promotion network. We pride in providing quality likes and traffic, and we encourage our members tonever pay for fake likes or traffic. The best thing about our traffic is that it's FREE</p><br></br>
+            <p><b>We are the most advanced social promotion network.</b>We pride in providing quality likes and traffic, and we encourage our members tonever pay for fake likes or traffic. The best thing about our traffic is that it's FREE</p><br></br>
             <ul>
                 <li>More than 500,000 active members from over 180 countries</li>
                 <li>No. 1 forgenerating traffic and likes</li>
