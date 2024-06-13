@@ -125,6 +125,17 @@
     border-radius: 5px;
     margin-top: 0px;
 }
+.system{
+    display: flex;
+    justify-content: space-between;
+    .leftSystem{
+        flex: 1;
+    }
+    .explanation{
+        flex: 3;
+    }
+}
+
 .footer{
     height: 30vh;
     background-color: rgb(80,86,93);

@@ -10,6 +10,7 @@ import Booster from '../components/Booster';
 import Bookmark from '../components/Bookmark';
 import "./home.scss";
 import Footer from "../components/Footer";
+import System from "../components/System";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
           <Booster />
           <Bookmark />          
         </div>
+          <System />
         <Footer/>
     </div>
   )
