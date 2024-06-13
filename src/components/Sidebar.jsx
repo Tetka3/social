@@ -1,9 +1,10 @@
-import React from 'react'
+import "./business.scss";
+import Buttons from './Buttons';
 
 const Sidebar = () => {
   return (
-    <div>
-      sidebar
+    <div className='sidebar'>
+      <Buttons/>
     </div>
   )
 }
