@@ -1,6 +1,6 @@
-import React from 'react'
 import social from "../assets/social.jpg";
 import "./navbar.scss";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -16,11 +16,11 @@ const Navbar = () => {
         </div>
         <div className="centernav"></div>
         <div className="rightnav">
-            <button>LogIn</button>
-            <button>Register</button>
-            <button>Coins: </button>
-            <button>Member</button>
-            <button>Logout</button>              
+            <Link to="/login"><button>LogIn</button></Link>
+            <Link to="/register"><button>Register</button></Link>
+            <Link to="/coins"><button>Coins: </button></Link>
+            <Link to="/member"><button>Member</button></Link>
+            <Link to="logout"><button>Logout</button></Link>              
         </div>        
     </div>
   )
