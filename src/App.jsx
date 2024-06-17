@@ -6,10 +6,11 @@ import {
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Dashboard from "./pages/Dashboard";
+import MainLayout from "./layouts/MainLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
+    <Route path="/" element={<MainLayout/>} >
       <Route index element={<HomePage />} />      
       <Route path="/dashboard" element={<Dashboard />} />      
     </Route>

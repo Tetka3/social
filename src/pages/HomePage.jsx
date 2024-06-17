@@ -1,5 +1,3 @@
-
-import Navbar from "../components/Navbar";
 import Hero from '../components/Hero';
 import Social from '../components/Social';
 import Website from '../components/Website';
@@ -9,14 +7,12 @@ import Follow from '../components/Follow';
 import Booster from '../components/Booster';
 import Bookmark from '../components/Bookmark';
 import "./home.scss";
-import Footer from "../components/Footer";
 import System from "../components/System";
 import Comments from "../components/Comments";
 
 const HomePage = () => {
   return (
-    <div className="home">
-        <Navbar />
+    <div className="home">        
         <Hero />
         <div className="cards">
           <Social />
@@ -30,8 +26,7 @@ const HomePage = () => {
           <Bookmark />          
         </div>
           <System />
-          <Comments/>
-        <Footer/>
+          <Comments/>        
     </div>
   )
 }
