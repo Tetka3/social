@@ -7,14 +7,16 @@ import {
 import HomePage from "./pages/HomePage";
 import Dashboard from "./pages/Dashboard";
 import MainLayout from "./layouts/MainLayout";
+import Login from "./pages/Login";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route index element={<HomePage />} /> 
-      <Route path="/dashboard" element={<MainLayout/>} >
-            
+      <Route path="/login" element={<Login />} /> 
+      <Route path="/dashboard" element={<MainLayout/>} >            
         <Route path="/dashboard" element={<Dashboard />} />      
+             
       </Route>
     </>
   )

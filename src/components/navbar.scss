@@ -44,7 +44,12 @@
         flex: 2;
         justify-content: flex-end;
         margin-right: 20px;
-        
+        // position: relative;
+        .login{
+            position: absolute;
+            top: 40;
+            right: 20;
+        }        
         button{
             padding: 5px;
             border-radius: 5px;

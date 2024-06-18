@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="rightnav">            
             <Link to="/coins"><button>Coins: </button></Link>
             <Link to="/member"><button>Member</button></Link>
-            <Link to="logout"><button>Logout</button></Link>              
+            <Link to="/"><button>Logout</button></Link>              
         </div>        
     </div>
   )

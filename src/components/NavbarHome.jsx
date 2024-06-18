@@ -1,8 +1,13 @@
+import { useState } from "react";
 import social from "../assets/social.jpg";
 import "./navbar.scss";
 import { Link } from 'react-router-dom';
+import Login from "../pages/Login";
 
 const NavbarHome = () => {
+
+    const [login, setLogin] = useState(false)
+
   return (
     <div className='navbar'>
         <div className="leftnav">
@@ -16,7 +21,8 @@ const NavbarHome = () => {
         </div>
         <div className="centernav"></div>
         <div className="rightnav">
-            <Link to="/login"><button>LogIn</button></Link>
+            <Login open={login} className="login"/>
+            <button onClick={() => setLogin(!login)}>LogIn</button>            
             <Link to="/register"><button>Register</button></Link>                         
         </div>        
     </div>
