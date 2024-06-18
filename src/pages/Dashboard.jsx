@@ -1,16 +1,20 @@
 import Links from '../components/Links'
+import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 import MainElements from '../components/MainElements'
 import "./home.scss";
 
 const Dashboard = () => {
   return (
-    <div>      
+    <div>
+      <Navbar />      
       <Links />
       <div className="elementals">
         <Sidebar/>
         <MainElements/>
-      </div>     
+      </div> 
+      <Footer />    
     </div>
   )
 }

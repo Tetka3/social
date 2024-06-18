@@ -2,7 +2,7 @@ import social from "../assets/social.jpg";
 import "./navbar.scss";
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const NavbarHome = () => {
   return (
     <div className='navbar'>
         <div className="leftnav">
@@ -15,13 +15,12 @@ const Navbar = () => {
             </div>   
         </div>
         <div className="centernav"></div>
-        <div className="rightnav">            
-            <Link to="/coins"><button>Coins: </button></Link>
-            <Link to="/member"><button>Member</button></Link>
-            <Link to="logout"><button>Logout</button></Link>              
+        <div className="rightnav">
+            <Link to="/login"><button>LogIn</button></Link>
+            <Link to="/register"><button>Register</button></Link>                         
         </div>        
     </div>
   )
 }
 
-export default Navbar
+export default NavbarHome
