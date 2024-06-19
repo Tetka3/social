@@ -1,4 +1,4 @@
-import React from 'react'
+import "./business.scss";
 
 const Buttons = () => {
   return (

@@ -24,7 +24,7 @@ const NavbarHome = () => {
             <Login open={login} className="login"/>
             <button onClick={() => setLogin(!login)}>LogIn</button>            
             <Link to="/register"><button>Register</button></Link>                         
-            <Link to="/register"><button>Registered</button></Link>                         
+                                     
         </div>        
     </div>
   )
