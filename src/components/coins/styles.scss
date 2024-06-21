@@ -41,9 +41,48 @@
     border-radius: 3px;
 }
 .monthly{
+    display: flex;
+    flex-direction: column;
     border: 1px solid lightblue;
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+    .top{
+        color: white;
+        background-color: rgb(48, 116, 71);
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 3px;       
+        border-top-right-radius: 3px;       
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        .paypal{
+            display: flex;
+            img{                
+                height: 12px;
+                width: 30px;
+                cursor: pointer;                   
+            }
+        }
+        .orders{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            button{
+                padding: 0px 0px 0px;
+            }
+        }
+        .info{
+            color: blue;        
+            
+        }
+        
+    }
 }

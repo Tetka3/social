@@ -20,6 +20,14 @@
 .login{    
     display: flex;
     flex-direction: column;
+    .linked{
+        padding: 3px 20px;
+        cursor: pointer;
+        color: white;
+        text-align: center; 
+        background-color: green;
+        text-decoration: none;
+    }
     button{
         cursor: pointer;
     }
