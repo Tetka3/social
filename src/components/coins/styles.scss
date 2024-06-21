@@ -1,45 +1,268 @@
 .active{
+    display: flex;
+    flex-direction: column;
     border: 1px solid lightblue;
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+    .top{
+        color: white;
+        background-color: rgb(48, 116, 71);
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 3px;       
+        border-top-right-radius: 3px;       
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        .paypal{
+            display: flex;
+            img{                
+                height: 12px;
+                width: 30px;
+                cursor: pointer;                   
+            }
+        }
+        .orders{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            button{
+                padding: 0px 0px 0px;
+            }
+        }
+        .info{
+            color: blue;  
+        }
+        
+    }
 }
 .bulk{
+    display: flex;
+    flex-direction: column;
     border: 1px solid lightblue;
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+    .top{
+        color: white;
+        background-color: rgb(48, 116, 71);
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 3px;       
+        border-top-right-radius: 3px;       
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        .paypal{
+            display: flex;
+            img{                
+                height: 12px;
+                width: 30px;
+                cursor: pointer;                   
+            }
+        }
+        .orders{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            button{
+                padding: 0px 0px 0px;
+            }
+        }
+        .info{
+            color: blue;  
+        }
+        
+    }
 }
 .coins{
+    display: flex;
+    flex-direction: column;
     border: 1px solid lightblue;
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+    .top{
+        color: white;
+        background-color: rgb(48, 116, 71);
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 3px;       
+        border-top-right-radius: 3px;       
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        .paypal{
+            display: flex;
+            img{                
+                height: 12px;
+                width: 30px;
+                cursor: pointer;                   
+            }
+        }
+        .orders{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            button{
+                padding: 0px 0px 0px;
+            }
+        }
+        .info{
+            color: blue;  
+        }
+        
+    }
 }
 .features{
+    display: flex;
+    flex-direction: column;
     border: 1px solid lightblue;
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+    .top{
+        color: white;
+        background-color: rgb(48, 116, 71);
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 3px;       
+        border-top-right-radius: 3px;       
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        .paypal{
+            display: flex;
+            img{                
+                height: 12px;
+                width: 30px;
+                cursor: pointer;                   
+            }
+        }
+        .orders{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            button{
+                padding: 0px 0px 0px;
+            }
+        }
+        .info{
+            color: blue;  
+        }        
+    }
 }
 .premium{
+    display: flex;
+    flex-direction: column;
     border: 1px solid lightblue;
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+    .top{
+        color: white;
+        background-color: rgb(48, 116, 71);
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 3px;       
+        border-top-right-radius: 3px;       
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px;
+        .paypal{
+            display: flex;
+            img{                
+                height: 12px;
+                width: 30px;
+                cursor: pointer;                   
+            }
+        }
+        .orders{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            button{
+                padding: 0px 0px 0px;
+            }
+        }
+        .info{
+            color: blue;       
+            
+        }        
+    }
 }
 .redeem{
+    display: flex;
+    flex-direction: column;
     border: 1px solid lightblue;
     width: 100%;
-    height: 30vh;
+    height: 25vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+    .top{
+        color: white;
+        background-color: rgb(48, 116, 71);
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 3px;       
+        border-top-right-radius: 3px;       
+    }
+    .bottom{ 
+        padding: 5px;       
+        input{
+            width: 100%;
+            padding: 3px;
+            border: 0.5px solid rgb(235, 215, 215);
+        }  
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            background-color: green;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            color: white;
+            cursor: pointer;
+        }
+    }        
 }
+
 .monthly{
     display: flex;
     flex-direction: column;
@@ -80,9 +303,7 @@
             }
         }
         .info{
-            color: blue;        
-            
-        }
-        
+            color: blue;  
+        }        
     }
 }
