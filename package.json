@@ -1,9 +1,5 @@
 {
-  "homepage": "social",
-  "repository": {
-    "type": "git",
-    "url": "https://tetka3.github.io/social/"
-  },
+  "homepage": "http://tetka3.github.io/social/",  
   "name": "vite",
   "private": true,
   "version": "0.0.0",
