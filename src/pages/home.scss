@@ -18,19 +18,16 @@
     
 }
 .login{    
-    display: flex;
+    // display: flex;
     flex-direction: column;
-    .linked{
-        padding: 3px 20px;
-        cursor: pointer;
-        color: white;
-        text-align: center; 
-        background-color: green;
-        text-decoration: none;
+    height: 30vh;
+    width: 30%;
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
     }
-    button{
-        cursor: pointer;
-    }
+    
     
 }
 

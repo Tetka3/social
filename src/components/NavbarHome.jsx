@@ -1,12 +1,13 @@
 import { useState } from "react";
 import social from "../assets/social.jpg";
 import "./navbar.scss";
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Login from "../pages/Login";
 
 const NavbarHome = () => {
 
-    const [login, setLogin] = useState(false)
+    const [login, setLogin] = useState(false);
+    const navigate = useNavigate();
 
   return (
     <div className='navbar'>
@@ -23,7 +24,7 @@ const NavbarHome = () => {
         <div className="rightnav">
             <Login open={login} className="login"/>
             <button onClick={() => setLogin(!login)}>LogIn</button>            
-            <Link to="/register"><button>Register</button></Link>                         
+            <button onClick={() => navigate("/register")}>Register</button>                         
                                      
         </div>        
     </div>
