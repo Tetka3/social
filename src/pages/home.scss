@@ -17,18 +17,72 @@
     margin-right: 30px;
     
 }
-.login{    
-    // display: flex;
+.login{ 
+    display: flex;
     flex-direction: column;
-    height: 30vh;
-    width: 30%;
-    .links{
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height:40vh;
+    background-color: rgb(225,230,254);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 3px;
+
+    .loginForm{
         display: flex;
         flex-direction: column;
-        gap: 9px;
+        gap: 5px;
+        width: 50%;  
+        button{
+            padding: 5px 5px;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 3px;
+        }      
     }
+    .member{
+        p{
+            .link{
+                list-style: none;
+            }
+        }
+    } 
     
-    
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    margin: 20px auto;
+    padding: 20px;
+    gap:20px;
+    background-color: rgb(207, 188, 188);
+    .imaged{
+        display: flex;        
+        justify-content: center;
+
+        img{
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .registerForm{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    button{
+        background-color: blue;
+        border: none;
+        padding: 5px;
+        border-radius: 3px;
+        color:white;
+    }
 }
 
 
