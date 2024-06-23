@@ -1,12 +1,10 @@
-import { useState } from "react";
 import social from "../assets/social.jpg";
 import "./navbar.scss";
 import { useNavigate } from 'react-router-dom';
-import Login from "../pages/Login";
+
 
 const NavbarHome = () => {
-
-    const [login, setLogin] = useState(false);
+    
     const navigate = useNavigate();
 
   return (
@@ -22,10 +20,8 @@ const NavbarHome = () => {
         </div>
         <div className="centernav"></div>
         <div className="rightnav">
-            <Login open={login} className="login"/>
-            <button onClick={() => setLogin(!login)}>LogIn</button>            
-            <button onClick={() => navigate("/register")}>Register</button>                         
-                                     
+            <button onClick={() => navigate("/login")}>Log In</button>                        
+            <button onClick={() => navigate("/register")}>Register</button>    
         </div>        
     </div>
   )

@@ -11,14 +11,15 @@ import Login from "./pages/Login";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <div basename="social">
+    <>
       <Route index element={<HomePage />} /> 
       <Route path="/login" element={<Login />} /> 
       <Route path="/dashboard" element={<MainLayout/>} >            
         <Route path="/dashboard" element={<Dashboard />} />      
+           
              
       </Route>
-    </div>
+    </>
   )
 );
 
