@@ -15,7 +15,7 @@ const Booster = () => {
         <img src={fb}/>
         <img src={fb}/>
         <img src={fb}/>
-        <img src={fb}/>
+        
       </div>
     </div>
   )
