@@ -1,12 +1,16 @@
-import Coins from "./Coins";
+// import Coins from "./Coins";
 import "./business.scss";
-import MyExchanges from "./cards/MyExchanges";
+// import AddNew from "./cards/AddNew";
+import Tracking from "./cards/Tracking";
+// import MyExchanges from "./cards/MyExchanges";
 
 const MainElements = () => {
   return (
     <div className='mainElements'> 
-      <Coins/>
-      <MyExchanges/>
+      {/* <Coins/> */}
+      {/* <MyExchanges/> */}
+      {/* <AddNew/> */}
+      <Tracking />
     </div>
   )
 }
