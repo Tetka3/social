@@ -1,0 +1,38 @@
+.exchanges{
+    border: 1px solid rgb(226, 210, 210);
+    
+    .top{
+        display: flex;
+        flex-direction: column;
+        min-height: max-content;
+        
+        .top1{
+            height: 40px;
+            p{
+                background-color: rgb(51,122,183);
+                padding: 5px;
+            }
+        }
+        .btn1{
+            background-color: rgb(225,230,254);
+            padding: 10px;
+            button{
+                padding: 2px;
+            }
+            p{
+                margin-top: 2px;
+            }
+            
+        }
+        .top2{
+            p{
+                background-color: rgb(51,122,183);
+                padding: 5px;
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+}
