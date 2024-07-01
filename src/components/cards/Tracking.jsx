@@ -1,4 +1,4 @@
-import React from 'react'
+import "./cards.scss";
 
 const Tracking = () => {
   return (
