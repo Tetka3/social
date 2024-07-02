@@ -133,6 +133,15 @@
     border-radius: 5px;
     margin-top: 0px;
     overflow: auto;
+
+    button{
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(11,102,35);
+        color: white;
+        cursor: pointer;
+    }
 }
 .booster{
     display: flex;
@@ -148,7 +157,7 @@
         display: flex;
         flex-wrap: wrap;
         gap:  3px;
-                
+        cursor: pointer;              
         
         img{
             height:20px;
@@ -205,7 +214,7 @@
         flex-direction: column;
         align-items: center;
         background-color: rgb(228, 225, 225);
-        height: 70px;
+        
         width:  30%;
         padding: 5px;        
         p{
@@ -328,6 +337,7 @@
 }
 .footer{
     height: 30vh;
+    width: auto;
     background-color: rgb(80,86,93);
     color: white;
     display: flex;
@@ -342,12 +352,13 @@
     }
     .bottom{
         flex: 1;
+        
         ul{
             list-style: none;
             li{
                 display: inline;
                 margin-right: 20px;
-                cursor: pointer;
+                cursor: pointer;                
                 &:hover{
                     text-decoration: underline;
                 }
