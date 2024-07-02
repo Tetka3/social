@@ -3,7 +3,7 @@
     margin: 0;
 }
 .social{
-    height: 170px;
+    min-height: auto;
     width: 22%;
     border: 1px solid rgb(238, 226, 226); 
     overflow: auto;    
@@ -33,7 +33,7 @@
     }
 }
 .video{
-    height: 170px;
+    min-height: auto;
     width: 22%;
     border: 1px solid rgb(238, 226, 226);
     overflow: auto;     
@@ -64,7 +64,7 @@
 
 }
 .business{
-    height: 170px;
+    min-height: auto;
     width: 22%;
     border: 1px solid rgb(238, 226, 226);
     overflow: auto;      
@@ -95,7 +95,7 @@
 
 }
 .website{
-    height: 170px;
+    min-height: auto;
     width: 22%;
     border: 1px solid rgb(238, 226, 226); 
     overflow: auto;    
@@ -126,8 +126,7 @@
 
 }
 .follow, .booster, .bookmark{
-    border: 1px solid rgb(238, 226, 226); 
-    // height: max-content;
+    border: 1px solid rgb(238, 226, 226);     
     min-height: max-content;
     width: 30%;
     padding: 20px;
@@ -147,8 +146,9 @@
     }
     .socials{
         display: flex;
+        flex-wrap: wrap;
         gap:  3px;
-        
+                
         
         img{
             height:20px;
