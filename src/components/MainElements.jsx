@@ -1,16 +1,20 @@
-// import Coins from "./Coins";
+import Coins from "./Coins";
 import "./business.scss";
-// import AddNew from "./cards/AddNew";
+import AddNew from "./cards/AddNew";
 import Tracking from "./cards/Tracking";
-// import MyExchanges from "./cards/MyExchanges";
+import MyExchanges from "./cards/MyExchanges";
+import { useState } from "react";
 
 const MainElements = () => {
+
+  const [page, setPage] = useState("coins")
+
   return (
     <div className='mainElements'> 
-      {/* <Coins/> */}
-      {/* <MyExchanges/> */}
-      {/* <AddNew/> */}
-      <Tracking />
+      {page === "coins" && <Coins/>}
+      {page === "myEchanges" && <MyExchanges/>}
+      {page === "addNew" && <AddNew/>}
+      {page === "tracking" && <Tracking />}
     </div>
   )
 }

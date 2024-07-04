@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import social from "../assets/social.jpg";
 import "./navbar.scss";
-import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
+    
+    const navigate = useNavigate();
   return (
     <div className='navbar'>
         <div className="leftnav">
@@ -16,9 +19,9 @@ const Navbar = () => {
         </div>
         <div className="centernav"></div>
         <div className="rightnav">            
-            <Link to="/coins"><button>Coins: </button></Link>
-            <Link to="/member"><button>Member</button></Link>
-            <Link to="/"><button>Logout</button></Link>              
+            <button>Coins: </button>
+            <button>Member</button>
+            <button onClick={() => navigate("/")}>Logout</button>              
         </div>        
     </div>
   )
