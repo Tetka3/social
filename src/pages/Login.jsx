@@ -6,8 +6,17 @@ import { Link, useNavigate } from 'react-router-dom';
 const Login = () => {
 
   const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
+  const handleNameChange = (e) => {
+    setUsername(e.target.value);    
+        
+  }
+  const handlePasswordChange = (e) => {      
+    setPassword(e.target.value); 
+      
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("hey")
@@ -20,9 +29,14 @@ const Login = () => {
           type="text" 
           placeholder="Username"
           value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          onChange={handleNameChange}
         />
-        <input type="text" placeholder="Password"/>
+        <input 
+          type="text" 
+          placeholder="Password"
+          value={password}
+          onChange={handlePasswordChange}
+        />
         <input type="checkbox"/><text>Remember me for 7 days</text>
         <p>Forgot Password</p>        
         <button onClick={() => navigate("/dashboard")}>Submit</button>
