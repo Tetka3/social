@@ -10,6 +10,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleNameChange = (e) => {
+    if (!username) return;
     setUsername(e.target.value);    
         
   }
@@ -20,6 +21,8 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("hey")
+    setUsername("");
+    setPassword("");
   }
     
   return (
@@ -36,10 +39,12 @@ const Login = () => {
           placeholder="Password"
           value={password}
           onChange={handlePasswordChange}
+          required
         />
         <input type="checkbox"/><text>Remember me for 7 days</text>
         <p>Forgot Password</p>        
-        <button onClick={() => navigate("/dashboard")}>Submit</button>
+        {/* <button onClick={() => navigate("/dashboard")}>Submit</button> */}
+        <button onClick={handleSubmit}>Submit</button>
       </form> 
       <div className="member">
         <p>Not a member? <Link to="/register" className="link">Create an account</Link> </p>
