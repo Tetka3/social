@@ -43,9 +43,8 @@ const Login = () => {
           required
         />
         <input type="checkbox"/><text>Remember me for 7 days</text>
-        <p>Forgot Password</p>        
-        {/* <button onClick={() => navigate("/dashboard")}>Submit</button> */}
-        <button >Submit</button>
+        <p><Link to="/register" className="link">Forgot Password</Link></p>             
+        <button onClick={() => navigate("/dashboard")}>Submit</button>        
       </form> 
       <div className="member">
         <p>Not a member? <Link to="/register" className="link">Create an account</Link> </p>
