@@ -1,17 +1,15 @@
 import React from 'react'
-import "./links.scss"
+import "./links.css"
 
 
 const Links = () => {
   return (
     <div className='links'>
-        <div className="left">
-            <ul>
-                <li>Home</li>
-                <li>Add New</li>
-                <li>Earn Coins</li>
-                <li>Buy Coins</li>
-            </ul>
+        <div className="left">            
+            <li>Home</li>
+            <li>Add New</li>
+            <li>Earn Coins</li>
+            <li>Buy Coins</li>            
         </div>
         <div className="center"></div>
         <div className="right">
