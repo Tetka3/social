@@ -6,7 +6,7 @@ const Links = () => {
   return (
     <div className='links'>
         <div className="left">            
-            <li>Home</li>
+            <li >Home</li>
             <li>Add New</li>
             <li>Earn Coins</li>
             <li>Buy Coins</li>            
