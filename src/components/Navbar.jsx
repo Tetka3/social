@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="leftnav">
-            <div className="left">
+            <div className="leftDiv">
                 <img src={social} alt="logo"/>
             </div>
-            <div className="right">
+            <div className="rightDiv">
                 <p>FOLLOW ME I FOLLOW YOU</p>
                 <span>Your No. 1 Social Network Site</span>
             </div>   
