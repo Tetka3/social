@@ -6,7 +6,7 @@ const Links = () => {
   return (
     <div className='links'>
         <div className="left">            
-            <li >Home</li>
+            <li className='activeLink'>Home</li>
             <li>Add New</li>
             <li>Earn Coins</li>
             <li>Buy Coins</li>            
@@ -14,7 +14,7 @@ const Links = () => {
         <div className="center"></div>
         <div className="right">
             <ul>
-                <li>Extras</li>
+                <li className='activeLink'>Extras</li>
                 <li>Support</li>
                 <li>Account</li>
             </ul>
