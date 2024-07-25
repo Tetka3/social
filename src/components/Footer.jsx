@@ -13,7 +13,8 @@ const Footer = () => {
           <li>Terms</li>
           <li>Contact</li>
           <li>Advertise</li>
-        </ul>  
+        </ul> 
+        <p>Copyright Titus Njema &copy; 2024</p> 
       </div> 
     </div> 
   )
