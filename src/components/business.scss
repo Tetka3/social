@@ -1,5 +1,5 @@
 *{
-    font-size: 8px;
+    // font-size: 0px;
     margin: 0;
 }
 .social{
@@ -230,11 +230,12 @@
     display: flex;
     gap: 1px;
     margin-top: 20px;
+    
     .leftButtons, .rightButtons{
         width: 50%;        
         button{
             padding: 5px;
-            font-size: 7px;
+            font-size: 14px;
             width: 100%;
             color: white;
             background-color: rgb(102, 199, 199);
