@@ -1,16 +1,16 @@
 .hero{
-    height: 220px;    
+    height: 520px;    
     margin: 0;
     padding: 0;    
         
     .video{
         display: flex;
         align-items: center;        
-        height: 200px;
+        height: 100%;
         width: 100%;
         
         video{
-            height: 220px;
+            height: inherit;
             width: 100%;
             object-fit: cover;
         }
