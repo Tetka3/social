@@ -7,6 +7,9 @@ const Comment = () => {
         <h4>Name</h4>
         <p>Webmaster</p>
         <p>"I've been a user of Follow Me I Follow You ..."</p>
+        <p>"I've been a user of Follow Me I Follow You ..."</p>
+        <p>"I've been a user of Follow Me I Follow You ..."</p>
+        
         <p>Rating</p>
       </div>
       <div className="comment2">
