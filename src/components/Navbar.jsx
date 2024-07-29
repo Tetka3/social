@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="leftnav">
             <div className="leftDiv">
-                <img src={social} alt="logo"/>
+                <img src={social} alt="logo" onClick={() => navigate("/")}/>
             </div>
             <div className="rightDiv">
                 <p>FOLLOW ME I FOLLOW YOU</p>
