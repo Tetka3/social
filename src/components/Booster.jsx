@@ -3,6 +3,10 @@ import fb from "../assets/fb.png";
 import linkedin from "../assets/linkedin.jpg";
 import instagram from "../assets/instagram.jpg";
 import twitter from "../assets/twitter.jpg";
+import pinterest from "../assets/pinterest.png";
+import snapchat from "../assets/snapchat.png";
+import telegram from "../assets/telegram.jpg";
+import youtube from "../assets/youtube.png";
 
 const Booster = () => {
   return (
@@ -16,9 +20,10 @@ const Booster = () => {
         <img src={linkedin}/>
         <img src={instagram}/>
         <img src={twitter}/>
-        <img src={fb}/>
-        <img src={fb}/>
-        
+        <img src={youtube}/>
+        <img src={pinterest}/>
+        <img src={snapchat}/>
+        <img src={telegram}/>      
       </div>
     </div>
   )
