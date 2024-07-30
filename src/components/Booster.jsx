@@ -1,5 +1,8 @@
 import "./business.scss";
 import fb from "../assets/fb.png";
+import linkedin from "../assets/linkedin.jpg";
+import instagram from "../assets/instagram.jpg";
+import twitter from "../assets/twitter.jpg";
 
 const Booster = () => {
   return (
@@ -10,9 +13,9 @@ const Booster = () => {
       </div>
       <div className="socials">
         <img src={fb}/>
-        <img src={fb}/>
-        <img src={fb}/>
-        <img src={fb}/>
+        <img src={linkedin}/>
+        <img src={instagram}/>
+        <img src={twitter}/>
         <img src={fb}/>
         <img src={fb}/>
         
