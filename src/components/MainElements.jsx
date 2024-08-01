@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const MainElements = () => {
 
-  const [page, setPage] = useState("coins")
+  const [page, setPage] = useState("addNew")
 
   return (
     <div className='mainElements'> 

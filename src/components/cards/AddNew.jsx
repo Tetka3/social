@@ -5,17 +5,25 @@ const AddNew = () => {
     <div className='addNew'>
         <div className="top">
             <div className="top1">
-                <p>Your Custom Exchanges</p>
+                <p>Add New Site or Social Network Account</p>
             </div>
             <div className="btn1">
-                <button>Add Custom Exchanges</button>
-                <p>Approvals Actions will appear here if there issomething toApprove or Deny</p>
-            </div>
-            <div className="top2">
-                <p>Your Links & Social Newtork Accounts</p>
-            </div>
+                <form className="dataInput">
+                    <input />
+                    <input />
+                    <input />
+                    <input />
+                    <input />
+                    <input />
+                    <input />
+                    <input />
+                    <input />
+                    <input />
+                    <button>Submit Link</button>
+                    <p>*Please note: The higher your CPC the faster you get Clicks, Likes, Shares, Views etc</p>
+                </form>
+            </div>            
         </div>
-        <div className="bottom"></div>      
     </div>
   )
 }
