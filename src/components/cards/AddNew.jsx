@@ -12,28 +12,28 @@ const AddNew = () => {
                 <span>Campaign Type</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>URL to add</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>General Title or Message</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>CPC</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>Daily Limit</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>Max Limit</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>Target Countries</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>Exclude Countries</span><input />
             </div>
             <div className="dataInput">
-                <span>Campaign Type</span><input />
+                <span>Category</span><input />
             </div>            
             <button>Submit Link</button>
             <p>*Please note: The higher your CPC the faster you get Clicks, Likes, Shares, Views etc</p>
