@@ -62,14 +62,22 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
+            padding-left: 30px;
             span{
-                flex: 1;                
+                flex: 1;
+                text-align: right;                
             }
             input{
                 flex: 4;
             }
-
-        }       
+        } 
+        button{
+            background-color: aqua;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            border-radius: 5px;
+        }      
     }
     
 }
