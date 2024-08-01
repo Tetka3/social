@@ -41,5 +41,18 @@
     }
 }
 .addNew{
+    display: flex;
+    flex-direction: column;
+    border: 1px  solid black;
+    border-radius: 3px;
+    .addSocial{
+        background-color: rgb(119, 180, 180);
+        overflow: hidden;
+        padding: 8px;
+        color: white;
+    }
+    .addForm{
+
+    }
     
 }
