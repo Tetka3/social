@@ -22,7 +22,10 @@ const MyExchanges = () => {
             <button></button><span>Delete</span>            
         </div>        
         <div className="addSocial">
-            <div className="search"></div>
+            <div className="search">
+                <input/>
+                <button>Search</button>
+            </div>
             <div className="btns">
                 <button>Advice</button>
                 <button>Tracking</button>
