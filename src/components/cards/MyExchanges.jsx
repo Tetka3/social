@@ -13,6 +13,15 @@ const MyExchanges = () => {
         <div className="addSocial">
             <p>Your Links & Social Network Accounts</p>
         </div>        
+        <div className="addSocial">
+            <p>Your Links & Social Network Accounts</p>
+        </div>        
+        <div className="addSocial">
+            <p>Your Links & Social Network Accounts</p>
+        </div>        
+        <div className="addSocial">
+            <p>Your Links & Social Network Accounts</p>
+        </div>        
     </div>
   )
 }
