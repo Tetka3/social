@@ -82,3 +82,10 @@
     }
     
 }
+.exchanges{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225,230,254);
+    border: 1px solid rgb(168, 168, 212);
+    border-radius: 5px;
+}
