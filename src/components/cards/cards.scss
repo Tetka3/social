@@ -99,7 +99,15 @@
         color: white;
     }
     .addInfo{
-
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        p{
+            text-align: center;
+        }
+        button{
+            padding: 10px;
+        }
     }
     .addSearch{
         display: flex;
