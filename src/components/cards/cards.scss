@@ -91,9 +91,24 @@
     .addExchange{
         background-color: rgb(51,122,183);
         padding: 10px;
+        color:white;
     }
     .network{
         background-color: rgb(51,122,183);
         padding: 10px;
+        color: white;
+    }
+    .addInfo{
+
+    }
+    .addSearch{
+        .search{
+
+        }
+        .btns{
+            button{
+                background-color: rgb(62,133,194);
+            }
+        }
     }
 }
