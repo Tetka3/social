@@ -17,10 +17,18 @@ const MyExchanges = () => {
             <p>Links that are not added correctly, broken or in wrong sections will be deleted. Breaking TOS they will be banned <br></br>
             Daily Statistics Reset in 18 hour 26 minutes</p>
             <div className="info-btns">
-                <button></button><span>Enabled</span>
-                <button></button><span>Edit Link</span>
-                <button></button><span>Boost CPC</span>
-                <button></button><span>Delete</span>
+                <div className="enabled">
+                    <button></button><span>Enabled</span>
+                </div>
+                <div className="edit-link">
+                    <button></button><span>Edit Link</span>
+                </div>
+                <div className="boost">
+                    <button></button><span>Boost CPC</span>
+                </div>
+                <div className="delete-btn">
+                    <button></button><span>Delete</span>
+                </div>                
             </div>            
         </div>        
         <div className="addSearch">
