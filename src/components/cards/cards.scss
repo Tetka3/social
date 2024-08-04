@@ -101,10 +101,19 @@
     .addInfo{
         display: flex;
         flex-direction: column;
-        padding: 10px;
-        
+        padding: 10px;        
         .para-info{
             text-align: center;
+        }
+        .info-btns{
+            display: flex;
+            gap: 10px;
+            .enabled, .edit-link, .boost, .delete-btn{
+
+                button{
+                    padding:10px;
+                }
+            }
         }
     }     
         
