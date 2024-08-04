@@ -14,8 +14,10 @@ const MyExchanges = () => {
             <p>Your Links & Social Network Accounts</p>
         </div>        
         <div className="addInfo">
-            <p>Links that are not added correctly, broken or in wrong sections will be deleted. Breaking TOS they will be banned <br></br>
-            Daily Statistics Reset in 18 hour 26 minutes</p>
+            <div className="para-info">
+                <p>Links that are not added correctly, broken or in wrong sections will be deleted. Breaking TOS they will be banned <br></br>
+                Daily Statistics Reset in 18 hour 26 minutes</p>
+            </div>           
             <div className="info-btns">
                 <div className="enabled">
                     <button></button><span>Enabled</span>
