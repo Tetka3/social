@@ -100,18 +100,25 @@
     }
     .addInfo{
         display: flex;
-        flex-direction: column;
+        flex-direction: column;        
         padding: 10px;        
         .para-info{
             text-align: center;
         }
         .info-btns{
             display: flex;
+            align-items: center;
+            justify-content: center;
             gap: 10px;
             .enabled, .edit-link, .boost, .delete-btn{
-
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 10px;
                 button{
                     padding:10px;
+                    cursor: pointer;
                 }
             }
         }
