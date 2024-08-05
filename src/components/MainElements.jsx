@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const MainElements = () => {
 
-  const [page, setPage] = useState("myExchanges")
+  const [page, setPage] = useState("tracking")
 
   return (
     <div className='mainElements'> 

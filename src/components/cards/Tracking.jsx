@@ -2,21 +2,17 @@ import "./cards.scss";
 
 const Tracking = () => {
   return (
-    <div className='tracking'>
-        <div className="top">
-            <div className="top1">
-                <p>Your Custom Exchanges</p>
-            </div>
-            <div className="btn1">
-                <button>Add Custom Exchanges</button>
-                <p>Approvals Actions will appear here if there issomething toApprove or Deny</p>
-            </div>
-            <div className="top2">
-                <p>Your Links & Social Newtork Accounts</p>
-            </div>
+    <div className='tracking'>        
+        <div className="track-header">
+            <p>Your Custom Exchanges</p>
+        </div> 
+        <div className="trackk-input">
+            <button>Add Custom Exchanges</button>
+            <p>Approval Actions will appear here if there is something to Approve or Deny</p>
         </div>
-        <div className="bottom"></div>
-      
+        <div className="track-info">
+            <p>Your Links & Social Network Accounts</p>
+        </div>   
     </div>
   )
 }
