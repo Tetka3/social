@@ -175,6 +175,11 @@
     .track-input{
         display: flex;
         flex-direction: column;
+        .select-option{}
+        .download-info{
+            display: flex;
+            gap: 10px;
+        }
     }
 
 }

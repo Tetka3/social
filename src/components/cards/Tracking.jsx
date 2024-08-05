@@ -17,9 +17,10 @@ const Tracking = () => {
                     </select>
                     <button>Change</button>
                 </div>
-
-                <p>Region: GMT -0 hour -00 minutes History is only kept for the last 4 weeks from today</p>
-                <button>DOWNLOAD CSV</button>
+                <div className="download-info">
+                    <p>Region: GMT -0 hour -00 minutes History is only kept for the last 4 weeks from today</p>
+                    <button>DOWNLOAD CSV</button>
+                </div>
             </div>
             <div className="track-info">
                 <p>Your Links & Social Network Accounts</p>
