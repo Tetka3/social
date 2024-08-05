@@ -9,7 +9,7 @@ const Tracking = () => {
             <div className="track-input">
                 <div className="select-option">
                     <select>
-                        <option>London</option>
+                        <option>(GMT) Greenwich Mean Time: London</option>
                         <option>Berlin</option>
                         <option>Greenland</option>
                         <option>Tokyo</option>
