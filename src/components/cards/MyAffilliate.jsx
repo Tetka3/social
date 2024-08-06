@@ -4,7 +4,17 @@ const MyAffilliate = () => {
   return (
     <div className='affiliate-links'>
         <div className="referral-statistics">
-            
+            <div className="top-menu">
+                <p>Referral Stats, Links, Banners and Splash Pages</p>
+            </div>
+            <div className="bottom-me">
+                <ul>
+                    <li>800 followlike Coins for each new active referral.</li>
+                    <li>15% of all your referral's Coin (credit) earnings for life.</li>
+                    <li>$0.15 Cash for each active referral. Cash out available at $20.00 via Paypal.</li>
+                    <li>Earn 1 followlike Coin for every UNIQUE visitor you send to your referral link</li>
+                </ul>
+            </div>
         </div>
         <div className="your-links"></div>
         <div className="your-codes"></div>
