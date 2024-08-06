@@ -14,6 +14,13 @@ const MyAffilliate = () => {
                     <li>$0.15 Cash for each active referral. Cash out available at $20.00 via Paypal.</li>
                     <li>Earn 1 followlike Coin for every UNIQUE visitor you send to your referral link</li>
                 </ul>
+                <button>Buy Referrals</button>
+                <button>Buy Referrals</button>
+                <button>Buy Referrals</button>
+                <input type='text'/>
+                <input type='text'/>
+                <input type='text'/>
+                <input type='text'/>
             </div>
         </div>
         <div className="your-links"></div>
