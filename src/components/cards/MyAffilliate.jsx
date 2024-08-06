@@ -24,24 +24,18 @@ const MyAffilliate = () => {
                 </div>
             </div>
             <div className="your-links">
-                <div className="share-button">
-                    <div className="top-menu">
-                        <p>Referral Stats, Links, Banners and Splash Pages</p>
-                    </div>
-                    <div className="bottom-me">
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
-                    </div>
+                <div className="top-share">
+                    <p>Referral Stats, Links, Banners and Splash Pages</p>
+                </div>
+                <div className="bottom-menu">
+                    <button>Buy Referrals</button>                    
                 </div>
                 <div className="unique-link">
                     <div className="top-menu">
                         <p>Referral Stats, Links, Banners and Splash Pages</p>
                     </div>
                     <div className="bottom-me">
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
+                        <button>Buy Referrals</button>                        
                     </div>
                 </div>
                 <div className="unique-pages">
@@ -49,9 +43,7 @@ const MyAffilliate = () => {
                         <p>Referral Stats, Links, Banners and Splash Pages</p>
                     </div>
                     <div className="bottom-me">
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
+                        <button>Buy Referrals</button>                        
                     </div>
                 </div>
             </div>
@@ -61,9 +53,7 @@ const MyAffilliate = () => {
                         <p>Referral Stats, Links, Banners and Splash Pages</p>
                     </div>
                     <div className="bottom-me">
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
-                        <button>Buy Referrals</button>
+                        <button>Buy Referrals</button>                        
                     </div>
                 </div>
             </div>
