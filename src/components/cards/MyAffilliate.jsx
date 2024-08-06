@@ -23,7 +23,11 @@ const MyAffilliate = () => {
                 <input type='text'/>
             </div>
         </div>
-        <div className="your-links"></div>
+        <div className="your-links">
+            <div className="share-button">L</div>
+            <div className="unique-link">C</div>
+            <div className="unique-pages">R</div>
+        </div>
         <div className="your-codes"></div>
       
     </div>
