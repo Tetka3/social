@@ -193,12 +193,18 @@
     flex-direction: column;
     background-color: rgb(225,230,254);
     border: 1px solid rgb(168, 168, 212);
-    border-radius: 5px;    
+    border-radius: 5px;       
     .top-menu{
         background-color: rgb(51,122,183);
         padding: 10px;
-        color:white;
-    }    
+        color:white;       
+    }  
+    .btns{
+        padding: 10px; 
+    }
+    .input-links{
+        padding: 10px; 
+    }
 }
 .your-links{
     display: flex;
