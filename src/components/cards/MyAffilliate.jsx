@@ -23,6 +23,7 @@ const MyAffilliate = () => {
                     <input type='text' />
                 </div>
             </div>
+            <div className="two">
             <div className="your-links">
                 <div className="top-share">
                     <p>Referral Stats, Links, Banners and Splash Pages</p>
@@ -57,7 +58,7 @@ const MyAffilliate = () => {
                     </div>
                 </div>
             </div>
-
+            </div>            
         </div>
     )
 }
