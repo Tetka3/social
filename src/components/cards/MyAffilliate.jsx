@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const MyAffilliate = () => {
     return (
@@ -28,39 +28,28 @@ const MyAffilliate = () => {
                 </div>
             </div>
             <div className="your-links">
-                <div className="top-share">
-                    <p>Referral Stats, Links, Banners and Splash Pages</p>
-                </div>
-                <div className="bottom-menu">
-                    <button>Buy Referrals</button>
-                </div>
-                <div className="unique-link">
-                    <div className="top-menu">
+                <div className="left-links">L</div>
+                <div className="center-links">L</div>
+                <div className="right-links">L</div>
+            </div>   
+            <div className="unique-links">
+                <div className="left-links">
+                    <div className="left-links">
                         <p>Referral Stats, Links, Banners and Splash Pages</p>
                     </div>
-                    <div className="bottom-me">
+                    <div className="left-links">
                         <button>Buy Referrals</button>
                     </div>
                 </div>
-                <div className="unique-banners">
-                    <div className="top-menu">
+                <div className="left-links">
+                    <div className="left-links">
                         <p>Referral Stats, Links, Banners and Splash Pages</p>
                     </div>
-                    <div className="bottom-me">
+                    <div className="left-links">
                         <button>Buy Referrals</button>
                     </div>
-                </div>
-            </div>
-            <div className="your-codes">
-                <div className="referral-statistics">
-                    <div className="top-menu">
-                        <p>Referral Stats, Links, Banners and Splash Pages</p>
-                    </div>
-                    <div className="bottom-me">
-                        <button>Buy Referrals</button>
-                    </div>
-                </div>
-            </div>
+                </div>   
+            </div>   
         </div>
     )
 }

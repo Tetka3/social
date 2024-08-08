@@ -210,6 +210,19 @@
     display: flex;
     margin-top: 30px;
     border: 1px solid blue;
+    gap: 10px;
+    .left-links{
+        flex: 1;
+        border: 1px solid blue;
+    }
+    .center-links{
+        flex: 1;
+        border: 1px solid blue;
+    }
+    .right-links{
+        flex: 1;
+        border: 1px solid blue;
+    }
 }
 .your-codes{
     display: flex;
