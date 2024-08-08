@@ -209,6 +209,7 @@
 .your-links{
     display: flex;
     margin-top: 30px;    
+    margin-bottom: 30px;    
     gap: 10px;
     .left-links{
         flex: 1;
@@ -226,8 +227,9 @@
         border-radius: 5px;
     }
 }
-.your-codes{
+.unique-links{
     display: flex;
     margin-top: 30px;
     border: 1px solid blue;
+    border-radius: 5px;
 }
