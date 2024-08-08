@@ -28,10 +28,31 @@ const MyAffilliate = () => {
                 </div>
             </div>
             <div className="your-links">
-                <div className="left-links">L</div>
-                <div className="center-links">L</div>
-                <div className="right-links">L</div>
-            </div>   
+                <div className="left-links">
+                    <div className="top-menu">
+                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                    </div>
+                    <div className="top-menu">
+                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                    </div>
+                </div>
+                <div className="center-links">
+                    <div className="top-menu">
+                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                    </div>
+                    <div className="top-menu">
+                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                    </div>
+                </div>
+                <div className="right-links">
+                    <div className="top-menu">
+                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                    </div>
+                    <div className="top-menu">
+                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                    </div>
+                </div>
+            </div>
             <div className="unique-links">
                 <div className="left-links">
                     <div className="left-links">
@@ -48,8 +69,8 @@ const MyAffilliate = () => {
                     <div className="left-links">
                         <button>Buy Referrals</button>
                     </div>
-                </div>   
-            </div>   
+                </div>
+            </div>
         </div>
     )
 }
