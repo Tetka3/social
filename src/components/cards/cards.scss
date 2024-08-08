@@ -208,20 +208,22 @@
 }
 .your-links{
     display: flex;
-    margin-top: 30px;
-    border: 1px solid blue;
+    margin-top: 30px;    
     gap: 10px;
     .left-links{
         flex: 1;
         border: 1px solid blue;
+        border-radius: 5px;
     }
     .center-links{
         flex: 1;
         border: 1px solid blue;
+        border-radius: 5px;
     }
     .right-links{
         flex: 1;
         border: 1px solid blue;
+        border-radius: 5px;
     }
 }
 .your-codes{
