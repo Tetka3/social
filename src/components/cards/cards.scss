@@ -1,157 +1,188 @@
-.exchanges{
+.exchanges {
     display: flex;
     flex-direction: column;
-   
+
     border: 1px solid rgb(226, 210, 210);
-    
-    
-    .top{
+
+
+    .top {
         display: flex;
         flex-direction: column;
         min-height: max-content;
-                
-        .top1{
+
+        .top1 {
             height: 40px;
-            p{
-                background-color: rgb(51,122,183);
+
+            p {
+                background-color: rgb(51, 122, 183);
                 padding: 5px;
             }
         }
-        .btn1{
-            background-color: rgb(225,230,254);
+
+        .btn1 {
+            background-color: rgb(225, 230, 254);
             padding: 10px;
-            button{
+
+            button {
                 padding: 2px;
             }
-            p{
+
+            p {
                 margin-top: 2px;
             }
-            
+
         }
-        .top2{
-            p{
-                background-color: rgb(51,122,183);
+
+        .top2 {
+            p {
+                background-color: rgb(51, 122, 183);
                 padding: 5px;
             }
         }
     }
-    .bottom{
+
+    .bottom {
         display: flex;
         flex-direction: column;
     }
 }
-.addNew{
+
+.addNew {
     display: flex;
     flex-direction: column;
-    border: 1px  solid black;
+    border: 1px solid black;
     border-radius: 3px;
-    background-color: rgb(225,230,254);
-    .addSocial{
+    background-color: rgb(225, 230, 254);
+
+    .addSocial {
         background-color: rgb(119, 180, 180);
         overflow: hidden;
         padding: 8px;
         color: white;
     }
-    .addForm{
+
+    .addForm {
         display: flex;
         flex-direction: column;
         padding: 20px;
-        gap: 15px; 
-        .dataInput{
+        gap: 15px;
+
+        .dataInput {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
             padding-left: 30px;
-            span{
+
+            span {
                 flex: 1;
-                text-align: right;                
+                text-align: right;
             }
-            input{
+
+            input {
                 flex: 4;
             }
-        } 
-        button{
+        }
+
+        button {
             background-color: rgb(80, 163, 117);
             border: none;
             padding: 8px;
             cursor: pointer;
             border-radius: 5px;
             color: white;
-        }      
+        }
     }
-    
+
 }
-.exchanges{
+
+.exchanges {
     display: flex;
     flex-direction: column;
-    background-color: rgb(225,230,254);
+    background-color: rgb(225, 230, 254);
     border: 1px solid rgb(168, 168, 212);
     border-radius: 5px;
-    .addExchange{
-        background-color: rgb(51,122,183);
+
+    .addExchange {
+        background-color: rgb(51, 122, 183);
         padding: 10px;
-        color:white;
+        color: white;
     }
-    .custom{
+
+    .custom {
         padding: 20px;
-        button{
+
+        button {
             padding: 5px;
             background-color: rgb(43, 238, 173);
             border: none;
             border-radius: 3px;
             cursor: pointer;
         }
-        p{
+
+        p {
             margin-top: 5px;
         }
     }
-    .network{
-        background-color: rgb(51,122,183);
+
+    .network {
+        background-color: rgb(51, 122, 183);
         padding: 10px;
         color: white;
     }
-    .addInfo{
+
+    .addInfo {
         display: flex;
-        flex-direction: column;        
-        padding: 10px;        
-        .para-info{
+        flex-direction: column;
+        padding: 10px;
+
+        .para-info {
             text-align: center;
         }
-        .info-btns{
+
+        .info-btns {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
-            .enabled, .edit-link, .boost, .delete-btn{
+
+            .enabled,
+            .edit-link,
+            .boost,
+            .delete-btn {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 gap: 10px;
                 margin-top: 10px;
-                button{
-                    padding:10px;
+
+                button {
+                    padding: 10px;
                     cursor: pointer;
                 }
             }
         }
-    }     
-        
-    .addSearch{
+    }
+
+    .addSearch {
         display: flex;
         justify-content: space-between;
         margin: 20px;
-        .search{
+
+        .search {
             flex: 3;
-            input{
+
+            input {
                 width: 70%;
             }
 
         }
-        .btns{
-            flex: 2;                        
-            button{
-                background-color: rgb(62,133,194);
+
+        .btns {
+            flex: 2;
+
+            button {
+                background-color: rgb(62, 133, 194);
                 padding: 3px 8px;
                 border: none;
                 border-radius: 2px;
@@ -161,26 +192,31 @@
         }
     }
 }
-.tracking{
+
+.tracking {
     display: flex;
     flex-direction: column;
-    background-color: rgb(225,230,254);
+    background-color: rgb(225, 230, 254);
     border: 1px solid rgb(168, 168, 212);
     border-radius: 5px;
-    .track-header{
-        background-color: rgb(51,122,183);
+
+    .track-header {
+        background-color: rgb(51, 122, 183);
         padding: 10px;
-        color:white;
+        color: white;
     }
-    .track-input{
+
+    .track-input {
         display: flex;
         flex-direction: column;
         padding: 20px;
-        .select-option{
+
+        .select-option {
             display: flex;
             gap: 20px;
         }
-        .download-info{
+
+        .download-info {
             display: flex;
             gap: 10px;
             margin-top: 10px;
@@ -188,51 +224,67 @@
     }
 
 }
-.referral-statistics{
+
+.referral-statistics {
     display: flex;
     flex-direction: column;
-    background-color: rgb(225,230,254);
+    background-color: rgb(225, 230, 254);
     border: 1px solid rgb(168, 168, 212);
-    border-radius: 5px;       
-    .top-menu{
-        background-color: rgb(51,122,183);
+    border-radius: 5px;
+
+    .top-menu {
+        background-color: rgb(51, 122, 183);
         padding: 10px;
-        color:white;       
-    }  
-    .btns{
-        padding: 10px; 
+        color: white;
     }
-    .input-links{
-        padding: 10px; 
+
+    .btns {
+        padding: 10px;
+    }
+
+    .input-links {
+        padding: 10px;
     }
 }
-.your-links{
+
+.your-links {
     display: flex;
-    margin-top: 30px;    
-    margin-bottom: 30px;    
+    margin-top: 30px;
+    margin-bottom: 30px;
     gap: 10px;
-    .left-links{
+
+    .left-links {
         flex: 1;
         border: 1px solid blue;
         border-radius: 5px;
-        background-color: rgb(225,230,254);
+        background-color: rgb(225, 230, 254);
+
+        .top-menu {
+            background-color: rgb(51, 122, 183);
+            padding: 10px;
+            color: white;
+        }
     }
-    .center-links{
+
+    .center-links {
         flex: 1;
         border: 1px solid blue;
         border-radius: 5px;
-        background-color: rgb(225,230,254);
+        background-color: rgb(225, 230, 254);
     }
-    .right-links{
+
+    .right-links {
         flex: 1;
         border: 1px solid blue;
         border-radius: 5px;
-        background-color: rgb(225,230,254);
+        background-color: rgb(225, 230, 254);
     }
 }
-.unique-links{
+
+.unique-links {
     display: flex;
     margin-top: 30px;
     border: 1px solid blue;
     border-radius: 5px;
+    background-color: rgb(225, 230, 254);
 }
