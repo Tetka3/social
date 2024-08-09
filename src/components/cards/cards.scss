@@ -275,6 +275,15 @@
             padding: 10px;
             color: white;
         }
+        .bottom-menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            label{
+                text-align: center;
+            }
+        }
     }
 
     .right-links {

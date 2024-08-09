@@ -58,7 +58,14 @@ const MyAffilliate = () => {
                         <p>Your Unique Splash Pages</p>
                     </div>
                     <div className="bottom-menu">
-                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                        <label>NEW Splash Page 1: NEW</label>
+                        <input type="text" />
+                        <label>NEW Splash Page 2: NEW</label>
+                        <input type="text" />
+                        <label>Splash Page 1:</label>
+                        <input type="text" />
+                        <label>Splash Page 2:</label>
+                        <input type="text" />                        
                     </div>
                 </div>
             </div>
