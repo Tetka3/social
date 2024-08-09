@@ -41,7 +41,16 @@ const MyAffilliate = () => {
                         <p>Your Unique Referral Links</p>
                     </div>
                     <div className="bottom-menu">
-                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+                        <label></label>
+                        <input type="text" />
+                        <label></label>
+                        <input type="text" />
+                        <label></label>
+                        <input type="text" />
+                        <label></label>
+                        <input type="text" />
+                        <label></label>
+                        <input type="text" />
                     </div>
                 </div>
                 <div className="right-links">
