@@ -41,15 +41,15 @@ const MyAffilliate = () => {
                         <p>Your Unique Referral Links</p>
                     </div>
                     <div className="bottom-menu">
-                        <label></label>
+                        <label>Your Referral Link:</label>
                         <input type="text" />
-                        <label></label>
+                        <label>NEW Your Referral Link: NEW</label>
                         <input type="text" />
-                        <label></label>
+                        <label>Your Referral Link:</label>
                         <input type="text" />
-                        <label></label>
+                        <label>Your HTML Code</label>
                         <input type="text" />
-                        <label></label>
+                        <label>Your BB/Forum Code</label>
                         <input type="text" />
                     </div>
                 </div>
