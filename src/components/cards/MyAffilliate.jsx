@@ -70,22 +70,19 @@ const MyAffilliate = () => {
                 </div>
             </div>
             <div className="unique-links">
-                <div className="left-links">
-                    <div className="left-links">
-                        <p>Referral Stats, Links, Banners and Splash Pages</p>
+            <div className="top-menu">
+                        <p>Your Unique Splash Pages</p>
                     </div>
-                    <div className="left-links">
-                        <button>Buy Referrals</button>
+                    <div className="bottom-menu">
+                        <label>NEW Splash Page 1: NEW</label>
+                        <input type="text" />
+                        <label>NEW Splash Page 2: NEW</label>
+                        <input type="text" />
+                        <label>Splash Page 1:</label>
+                        <input type="text" />
+                        <label>Splash Page 2:</label>
+                        <input type="text" />                        
                     </div>
-                </div>
-                <div className="left-links">
-                    <div className="left-links">
-                        <p>Referral Stats, Links, Banners and Splash Pages</p>
-                    </div>
-                    <div className="left-links">
-                        <button>Buy Referrals</button>
-                    </div>
-                </div>
             </div>
         </div>
     )
