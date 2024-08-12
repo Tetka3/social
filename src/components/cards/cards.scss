@@ -333,4 +333,15 @@
 .dashboard-home{
     display: flex;
     flex-direction: column;
+    .card-input{
+        border: 1px solid rgb(109, 109, 182);
+    }
+    .member-actions{
+        .current-actions{
+            border: 1px solid rgb(109, 109, 182);
+        }
+        .registered-actions{
+            border: 1px solid rgb(109, 109, 182);
+        }
+    }
 }
