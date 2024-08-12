@@ -9,7 +9,7 @@ import Home from "./cards/Home";
 
 const MainElements = () => {
 
-  const [page, setPage] = useState("affiliate")
+  const [page, setPage] = useState("home")
 
   return (
     <div className='mainElements'> 
