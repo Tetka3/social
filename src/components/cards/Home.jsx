@@ -5,6 +5,7 @@ const Home = () => {
     <div className="dashboard-home">
       <div className="card-input"></div> 
       <div className="member-actions"></div>
+      <div className="adverts">Advertise here...</div>
     </div>
   )
 }
