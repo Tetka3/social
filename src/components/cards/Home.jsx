@@ -22,7 +22,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="adverts">Advertise here...</div>
+      <div className="adverts">
+        <p>Advertise Here</p>
+        <p>From $20 per 250,000 impressions</p>
+      </div>
     </div>
   )
 }
