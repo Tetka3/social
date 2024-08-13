@@ -1,4 +1,4 @@
-
+import "./cards.scss";
 
 const MyAffilliate = () => {
     return (
