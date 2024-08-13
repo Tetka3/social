@@ -335,6 +335,8 @@
     flex-direction: column;    
     .card-input{
         border: 1px solid rgb(109, 109, 182);
+        border-radius: 3px;
+        height: 70vh;
     }
     .member-actions{
         display: flex;
@@ -342,6 +344,20 @@
         margin-top: 20px;
         .current-actions{
             border: 1px solid rgb(109, 109, 182);
+            .top-menu {
+                background-color: rgb(51, 122, 183);
+                padding: 10px;
+                color: white;
+            }
+            .bottom-menu{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 20px;
+                label{
+                    text-align: center;
+                }
+            }
         }
         .registered-actions{
             border: 1px solid rgb(109, 109, 182);

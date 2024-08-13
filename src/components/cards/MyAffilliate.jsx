@@ -7,7 +7,7 @@ const MyAffilliate = () => {
                 <div className="top-menu">
                     <p>Referral Stats, Links, Banners and Splash Pages</p>
                 </div>
-                <div className="bottom-me">
+                <div className="bottom-menu">
                     <ul>
                         <li>800 followlike Coins for each new active referral.</li>
                         <li>15% of all your referral's Coin (credit) earnings for life.</li>

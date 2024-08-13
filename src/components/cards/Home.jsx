@@ -6,23 +6,19 @@ const Home = () => {
       <div className="card-input">Video</div>
       <div className="member-actions">
         <div className="current-actions">
-          <div className="topic">
-            <p>Current Member Actions (Live)</p>
+          <div className="top-menu">
+            <p>Share your Link Buttons</p>
           </div>
-          <div className="detailed-info">
-            <p>Websites viewed</p>
-            <p>Websites viewed</p>
-            <p>Websites viewed</p>
+          <div className="bottom-menu">
+            <p>Referral Stats, Links, Banners and Splash Pages</p>
           </div>
         </div>
         <div className="registered-actions">
-          <div className="topic">
-            <p>Current Member Actions (Live)</p>
+          <div className="top-menu">
+            <p>Share your Link Buttons</p>
           </div>
-          <div className="detailed-info">
-            <p>Websites viewed</p>
-            <p>Websites viewed</p>
-            <p>Websites viewed</p>
+          <div className="bottom-menu">
+            <p>Referral Stats, Links, Banners and Splash Pages</p>
           </div>
         </div>
       </div>
