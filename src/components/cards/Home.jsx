@@ -1,9 +1,12 @@
 import "./cards.scss";
+import start from "../../assets/start.mp4";
 
 const Home = () => {
   return (
     <div className="dashboard-home">
-      <div className="card-input">Video</div>
+      <div className="card-input">
+        <video src={start} autoPlay loop muted />
+      </div>
       <div className="member-actions">
         <div className="current-actions">
           <div className="top-menu">
