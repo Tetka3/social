@@ -5,35 +5,41 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () => {
 
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [formData, setFormData] = useState({
+    username: "",
+    password: ""
+  });
+
   const navigate = useNavigate();
 
   const handleChange = (e) => {    
-    setUsername(e.target.value);  
+    setFormData(prevData => {
+      return {...prevData, [e.target.name]: e.target.value}
+    })
   }  
   
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(password)
-    setUsername("");
-    setPassword("");
-  }
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setUsername("");
+  //   setPassword("");
+  // }
     
   return (
     <div className="login">      
-      <form className="loginForm" onSubmit={handleSubmit}>
+      <form className="loginForm" >
         <input 
           type="text" 
           placeholder="Username"
           required
-          value={username}
+          // value={username}
+          name="username"
           onChange={handleChange}
         />
         <input 
           type="text" 
           placeholder="Password"
-          value={password}
+          // value={password}
+          name="password"
           onChange={handleChange}
           required
         />
