@@ -31,14 +31,14 @@ const Login = () => {
           type="text" 
           placeholder="Username"
           required
-          // value={username}
+          value={formData.username}
           name="username"
           onChange={handleChange}
         />
         <input 
           type="text" 
           placeholder="Password"
-          // value={password}
+          value={formData.password}
           name="password"
           onChange={handleChange}
           required
