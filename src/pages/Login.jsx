@@ -9,15 +9,10 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
-  const handleNameChange = (e) => {
-    
-    setUsername(e.target.value);    
-        
-  }
-  const handlePasswordChange = (e) => {      
-    setPassword(e.target.value); 
-      
-  }
+  const handleChange = (e) => {    
+    setUsername(e.target.value);  
+  }  
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(password)
@@ -33,13 +28,13 @@ const Login = () => {
           placeholder="Username"
           required
           value={username}
-          onChange={handleNameChange}
+          onChange={handleChange}
         />
         <input 
           type="text" 
           placeholder="Password"
           value={password}
-          onChange={handlePasswordChange}
+          onChange={handleChange}
           required
         />
         <input type="checkbox"/><text>Remember me for 7 days</text>
