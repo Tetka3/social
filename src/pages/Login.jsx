@@ -18,15 +18,15 @@ const Login = () => {
     })
   }  
   
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setUsername("");
-  //   setPassword("");
-  // }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setUsername("");
+    setPassword("");
+  }
     
   return (
     <div className="login">      
-      <form className="loginForm" >
+      <form className="loginForm" onSubmit={handleSubmit}>
         <input 
           type="text" 
           placeholder="Username"
