@@ -1,8 +1,15 @@
 import "./home.scss";
 import write from "../assets/write.png";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Register = () => {
+
+  const [registerData, setRegisterData] = useState({
+    username: "",
+    password: "",
+    email: ""
+  })
   const navigate = useNavigate();
   return (
     <div className="register">
@@ -14,8 +21,13 @@ const Register = () => {
           type="text"
           placeholder="Username..."
           name = "username"
-        />
+        />       
         <input
+          type="text"
+          placeholder="Email..." 
+          name = "email"
+        />        
+         <input
           type="text"
           placeholder="Password..." 
           name = "password"
@@ -23,16 +35,6 @@ const Register = () => {
         <input
           type="text"
           placeholder="Repeat Password..." 
-        />
-        <input
-          type="text"
-          placeholder="Email..." 
-          name = "email"
-        />
-        <input
-          type="text"
-          placeholder="Confirm Email..." 
-          name = "confirmEmail"
         />
         <input
           type="checkbox" 
