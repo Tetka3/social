@@ -7,15 +7,34 @@ const Register = () => {
   return (
     <div className="register">
       <div className="imaged">
-        <img src={write}/>
+        <img src={write} />
       </div>
       <form className="registerForm">
-        <input type="text" placeholder="Username..."/>
-        <input type="text" placeholder="Password..."/>
-        <input type="text" placeholder="Repeat Password..."/>
-        <input type="text" placeholder="Email..."/>
-        <input type="text" placeholder="Confirm Email..."/>
-        <input type="checkbox" />
+        <input
+          type="text"
+          placeholder="Username..."
+          name = "username"
+        />
+        <input
+          type="text"
+          placeholder="Password..." 
+          name = "password"
+        />
+        <input
+          type="text"
+          placeholder="Repeat Password..." 
+        />
+        <input
+          type="text"
+          placeholder="Email..." 
+        />
+        <input
+          type="text"
+          placeholder="Confirm Email..." 
+        />
+        <input
+          type="checkbox" 
+        />
       </form>
       <button onClick={() => navigate("/dashboard")}>Sign Me Up!</button>
       <p>Forgot Password</p>
