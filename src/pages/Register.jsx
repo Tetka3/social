@@ -27,10 +27,12 @@ const Register = () => {
         <input
           type="text"
           placeholder="Email..." 
+          name = "email"
         />
         <input
           type="text"
           placeholder="Confirm Email..." 
+          name = "confirmEmail"
         />
         <input
           type="checkbox" 
