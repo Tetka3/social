@@ -16,12 +16,16 @@ const Register = () => {
   const handleChange = (e) => {
     setRegisterData(e.target.value)
   }
+
+  const handleSubmit = () => {
+    
+  }
   return (
     <div className="register">
       <div className="imaged">
         <img src={write} />
       </div>
-      <form className="registerForm">
+      <form className="registerForm" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Username..."
