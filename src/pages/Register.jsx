@@ -26,24 +26,28 @@ const Register = () => {
           type="text"
           placeholder="Username..."
           name = "username"
+          value = {registerData.username}
           onChange={handleChange}
         />       
         <input
           type="text"
           placeholder="Email..." 
           name = "email"
+          value = {registerData.email}
           onChange={handleChange}
         />        
          <input
           type="text"
           placeholder="Password..." 
           name = "password"
+          value = {registerData.password}
           onChange={handleChange}
         />
         <input
           type="text"
           placeholder="Repeat Password..." 
           name ="repeatPassword"
+          value = {registerData.repeatPassword}
           onChange={handleChange}
         />
         <input
