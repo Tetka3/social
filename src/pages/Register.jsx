@@ -14,11 +14,13 @@ const Register = () => {
   const navigate = useNavigate();
 
   const handleChange = (e) => {
-    setRegisterData(e.target.value)
+    setFormData(prevData => {
+      return {...prevData, [e.target.name]: e.target.value}
+    })
   }
 
-  const handleSubmit = () => {
-    
+  const handleSubmit = (e) => {
+    e.preventDefault();
   }
   return (
     <div className="register">
