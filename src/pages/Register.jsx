@@ -13,8 +13,8 @@ const Register = () => {
   })
   const navigate = useNavigate();
 
-  const handleChange = () => {
-    
+  const handleChange = (e) => {
+    setRegisterData(e.target.value)
   }
   return (
     <div className="register">
