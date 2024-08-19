@@ -10,11 +10,12 @@ import YourAccount from "./YourAccount";
 const Sidebar = () => {
 
   const [showMenu, setShowMenu] = useState(false);
+
   return (
     <div className='sidebar'>
       <Buttons/>
       <EarnCoins/>
-      <Menu /> 
+      {showMenu && <Menu />} 
       <YourAccount/>
       <Bonus/>
       <Updates/>
