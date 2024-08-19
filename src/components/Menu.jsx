@@ -2,8 +2,15 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <div>
-      Menu
+    <div className="menu">
+      <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>X</li>
+        <li>Tumblr</li>
+        <li>YouTube</li>
+        <li>Website</li>        
+      </ul>
     </div>
   )
 }
