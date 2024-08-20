@@ -34,4 +34,12 @@
     border: 1px solid black;
     border-radius: 3px;
     margin-bottom: 10px;
+    ul{
+        list-style: none;
+        li{
+            padding: 5px;
+            display: block; 
+                       
+        }
+    }
 }
