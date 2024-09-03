@@ -6,13 +6,11 @@ import EarnCoins from "./EarnCoins";
 import Updates from "./Updates";
 import Menu from "./Menu";
 import YourAccount from "./YourAccount";
-import { useNavigate } from "react-router-dom";
+
 
 const Sidebar = () => {
 
-  const [showMenu, setShowMenu] = useState(true);
-  const navigate = useNavigate(); 
-  
+  const [showMenu, setShowMenu] = useState(true);   
   
   return (
     <div className='sidebar'>
