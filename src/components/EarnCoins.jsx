@@ -1,13 +1,11 @@
 import "./business.scss";
-import { useNavigate } from 'react-router-dom';
 
-const EarnCoins = () => {
 
-  const navigate = useNavigate();
+const EarnCoins = ({ setShowMenu }) => {  
 
   return (
     <div className='earnCoins'>
-      <button onClick={() => navigate("/menu")}>Earn Coins</button>
+      <button onClick={() => setShowMenu(!setShowMenu)}>Earn Coins</button>
     </div>
   )
 }

@@ -1,12 +1,12 @@
 import "./hero.scss";
 
-const Menu = () => {
+const Menu = ({ setShowMenu }) => {
   return (
     <div className="menu">
       <ul>
         <li>Facebook</li>
         <li>Instagram</li>
-        <li>X</li>
+        <li>X / Twitter</li>
         <li>Tumblr</li>
         <li>YouTube</li>
         <li>Website</li>        
