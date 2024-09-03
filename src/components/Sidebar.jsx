@@ -10,7 +10,7 @@ import YourAccount from "./YourAccount";
 
 const Sidebar = () => {
 
-  const [showMenu, setShowMenu] = useState(true);   
+  const [showMenu, setShowMenu] = useState(false);   
   
   return (
     <div className='sidebar'>
