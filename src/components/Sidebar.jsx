@@ -17,8 +17,8 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <Buttons/>
-      <EarnCoins onClick={() => setShowMenu(prev => !prev)}/>
-      {showMenu && <Menu setShowMenu={setShowMenu}/>} 
+      <EarnCoins onClick={() => setShowMenu(!showMenu)}/>
+      {showMenu && <Menu />} 
       <YourAccount/>
       <Bonus/>
       <Updates/>

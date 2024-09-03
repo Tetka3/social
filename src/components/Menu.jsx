@@ -1,6 +1,6 @@
 import "./hero.scss";
 
-const Menu = ({ setShowMenu }) => {
+const Menu = () => {
   return (
     <div className="menu">
       <ul>
