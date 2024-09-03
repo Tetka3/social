@@ -1,11 +1,11 @@
 import "./business.scss";
 
 
-const EarnCoins = ({ setShowMenu }) => {  
+const EarnCoins = ({ onAdd }) => {  
 
   return (
     <div className='earnCoins'>
-      <button onClick={() => setShowMenu(!showMenu)}>Earn Coins</button>
+      <button onClick={onAdd}>Earn Coins</button>
     </div>
   )
 }
