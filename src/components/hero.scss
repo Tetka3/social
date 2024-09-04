@@ -37,8 +37,13 @@
     ul{
         list-style: none;
         li{
-            padding: 5px;
-            display: block;                        
+            padding: 5px;            
+            margin-bottom: 5px;
+            background-color: gray;
+            &:hover{
+                background-color: green;
+                color: white;
+            }                        
         }
     }
 }
