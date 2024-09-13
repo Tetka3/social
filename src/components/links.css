@@ -21,6 +21,7 @@
 .links li:hover {
     background-color: #ddd;
     color: black;
+    cursor: pointer;
 }
 .left li.activeLink, .right li.activeLink{
     background-color: rgb(91, 155, 91);    
