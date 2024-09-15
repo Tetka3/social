@@ -14,7 +14,7 @@ const Navbar = () => {
             </div>
             <div className="rightDiv">
                 <p>FOLLOW ME I FOLLOW YOU</p>
-                <span>Your No. 1 Social Network Site</span>
+                <span>Your No. 1 Social Network Site!</span>
             </div>   
         </div>
         <div className="centernav"></div>
