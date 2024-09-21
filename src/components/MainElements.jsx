@@ -7,10 +7,11 @@ import { useState } from "react";
 import MyAffilliate from "./cards/MyAffilliate";
 import Home from "./cards/Home";
 import Support from "./cards/Support";
+import Account from "./cards/Account";
 
 const MainElements = () => {
 
-  const [page, setPage] = useState("support")
+  const [page, setPage] = useState("account")
 
   return (
     <div className='mainElements'> 
@@ -21,6 +22,7 @@ const MainElements = () => {
       {page === "tracking" && <Tracking />}
       {page === "affiliate" && <MyAffilliate />}
       {page === "support" && <Support />}
+      {page === "account" && <Account />}
     </div>
   )
 }
