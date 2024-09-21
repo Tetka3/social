@@ -1,13 +1,11 @@
-
 import React from 'react'
 
-const Support = () => {
+const Account = () => {
   return (
     <div>
-      support
+      accounts 
     </div>
   )
 }
 
-export default Support
-
+export default Account
