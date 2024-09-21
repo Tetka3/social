@@ -9,7 +9,7 @@ import Home from "./cards/Home";
 
 const MainElements = () => {
 
-  const [page, setPage] = useState("home")
+  const [page, setPage] = useState("myExchanges")
 
   return (
     <div className='mainElements'> 
@@ -19,6 +19,7 @@ const MainElements = () => {
       {page === "addNew" && <AddNew/>}
       {page === "tracking" && <Tracking />}
       {page === "affiliate" && <MyAffilliate />}
+      {page === "suppport" && <Support />}
     </div>
   )
 }
