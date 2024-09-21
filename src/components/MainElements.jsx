@@ -6,10 +6,11 @@ import MyExchanges from "./cards/MyExchanges";
 import { useState } from "react";
 import MyAffilliate from "./cards/MyAffilliate";
 import Home from "./cards/Home";
+import Support from "./cards/Support";
 
 const MainElements = () => {
 
-  const [page, setPage] = useState("myExchanges")
+  const [page, setPage] = useState("support")
 
   return (
     <div className='mainElements'> 
@@ -19,7 +20,7 @@ const MainElements = () => {
       {page === "addNew" && <AddNew/>}
       {page === "tracking" && <Tracking />}
       {page === "affiliate" && <MyAffilliate />}
-      {page === "suppport" && <Support />}
+      {page === "support" && <Support />}
     </div>
   )
 }
