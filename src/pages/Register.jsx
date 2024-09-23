@@ -7,6 +7,7 @@ const Register = () => {
 
   const [registerData, setRegisterData] = useState({
     fullname: "",
+    gender: "",
     username: "",
     password: "",
     email: "",
