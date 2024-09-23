@@ -6,6 +6,7 @@ import { useState } from "react";
 const Register = () => {
 
   const [registerData, setRegisterData] = useState({
+    fullname = "",
     username: "",
     password: "",
     email: "",
@@ -28,6 +29,13 @@ const Register = () => {
         <img src={write} />
       </div>
       <form className="registerForm" onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="Fullname..."
+          name = "username"
+          value = {registerData.fullname}
+          onChange={handleChange}
+        />       
         <input
           type="text"
           placeholder="Username..."
