@@ -1,5 +1,5 @@
 import "./business.scss";
-import system from "../assets/system.png";
+import system from "../../assets/system.png";
 
 const System = () => {
   return (
