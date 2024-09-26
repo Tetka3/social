@@ -1,4 +1,4 @@
-import "./business.scss"
+// import "./business.scss"
 
 const Bonus = () => {
   return (

@@ -3,7 +3,7 @@ import Social from '../components/mainEl/Social';
 import Website from '../components/mainEl/Website';
 import Video from '../components/mainEl/Video';
 import Business from '../components/mainEl/Business';
-import Follow from '../components/Follow';
+import Follow from '../components/mainEl/Follow';
 import Booster from '../components/mainEl/Booster';
 import Bookmark from '../components/mainEl/Bookmark';
 import "./home.scss";
