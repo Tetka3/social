@@ -1,5 +1,4 @@
-import React from 'react'
-import website from "../assets/website.png";
+import website from "../../assets/website.png";
 
 const Website = () => {
   return (

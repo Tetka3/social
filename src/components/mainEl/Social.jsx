@@ -1,5 +1,5 @@
 import "./business.scss";
-import social from "../assets/network.png";
+import social from "../../assets/network.png";
 
 const Social = () => {
   return (

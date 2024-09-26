@@ -10,7 +10,7 @@ import "./home.scss";
 import System from "../components/System";
 import Comments from "../components/Comments";
 import NavbarHome from '../components/NavbarHome';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (

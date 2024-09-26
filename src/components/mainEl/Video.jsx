@@ -1,5 +1,5 @@
 import "./business.scss";
-import video from "../assets/video.png";
+import video from "../../assets/video.png";
 import { Link } from "react-router-dom";
 
 const Video = () => {

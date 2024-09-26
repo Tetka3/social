@@ -1,5 +1,5 @@
 import React from 'react';
-import business from "../assets/business.png";
+import business from "../../assets/business.png";
 
 const Business = () => {
   return (
