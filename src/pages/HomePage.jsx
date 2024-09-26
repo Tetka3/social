@@ -5,7 +5,7 @@ import Video from '../components/mainEl/Video';
 import Business from '../components/mainEl/Business';
 import Follow from '../components/Follow';
 import Booster from '../components/mainEl/Booster';
-import Bookmark from '../components/Bookmark';
+import Bookmark from '../components/mainEl/Bookmark';
 import "./home.scss";
 import System from "../components/System";
 import Comments from "../components/Comments";
