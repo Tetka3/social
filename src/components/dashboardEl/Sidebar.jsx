@@ -2,7 +2,7 @@ import { useState } from "react";
 import Bonus from "../Bonus";
 // import "./business.scss";
 import Buttons from './Buttons';
-import EarnCoins from "../EarnCoins";
+import EarnCoins from "./EarnCoins";
 import Updates from "../Updates";
 import Menu from "../Menu";
 import YourAccount from "../YourAccount";
