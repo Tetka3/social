@@ -1,5 +1,5 @@
 import "./hero.scss";
-import start from "../assets/start.mp4";
+import start from "../../assets/start.mp4";
 // import likes from "../assets/likes.mp4";
 import {  useNavigate } from 'react-router-dom';
 

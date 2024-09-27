@@ -1,4 +1,4 @@
-import Hero from '../components/Hero';
+import Hero from '../components/mainEl/Hero';
 import Social from '../components/mainEl/Social';
 import Website from '../components/mainEl/Website';
 import Video from '../components/mainEl/Video';
