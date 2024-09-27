@@ -1,13 +1,13 @@
 import Coins from "./Coins";
 // import "./business.scss";
-import AddNew from "./cards/AddNew";
-import Tracking from "./cards/Tracking";
-import MyExchanges from "./cards/MyExchanges";
+import AddNew from "../cards/AddNew";
+import Tracking from "../cards/Tracking";
+import MyExchanges from "../cards/MyExchanges";
 import { useState } from "react";
-import MyAffilliate from "./cards/MyAffilliate";
-import Home from "./cards/Home";
-import Support from "./cards/Support";
-import Account from "./cards/Account";
+import MyAffilliate from "../cards/MyAffilliate";
+import Home from "../cards/Home";
+import Support from "../cards/Support";
+import Account from "../cards/Account";
 
 const MainElements = () => {
 
