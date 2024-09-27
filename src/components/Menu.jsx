@@ -1,4 +1,4 @@
-import "./hero.scss";
+// import "./hero.scss";
 
 const Menu = () => {
   return (

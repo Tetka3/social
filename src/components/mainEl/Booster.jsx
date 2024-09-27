@@ -1,16 +1,16 @@
 import "./business.scss";
 import fb from "../../assets/fb.png";
-// import vk from "../assets/vk.jpg";
-// import tumblr from "../assets/tumblr.png";
-// import diigo from "../assets/diigo.jpg";
-// import reddit from "../assets/reddit.png";
-// import linkedin from "../assets/linkedin.jpg";
-// import instagram from "../assets/instagram.jpg";
-// import twitter from "../assets/twitter.jpg";
-// import pinterest from "../assets/pinterest.png";
-// import snapchat from "../assets/snapchat.png";
-// import telegram from "../assets/telegram.jpg";
-// import youtube from "../assets/youtube.png";
+import vk from "../../assets/vk.jpg";
+import tumblr from "../../assets/tumblr.png";
+import diigo from "../../assets/diigo.jpg";
+import reddit from "../../assets/reddit.png";
+import linkedin from "../../assets/linkedin.jpg";
+import instagram from "../../assets/instagram.jpg";
+import twitter from "../../assets/twitter.jpg";
+import pinterest from "../../assets/pinterest.png";
+import snapchat from "../../assets/snapchat.png";
+import telegram from "../../assets/telegram.jpg";
+import youtube from "../../assets/youtube.png";
 
 const Booster = () => {
   return (
@@ -22,7 +22,7 @@ const Booster = () => {
       </div>
       <div className="socials">
         <img src={fb}/>
-        {/* <img src={linkedin}/>        
+        <img src={linkedin}/>        
         <img src={twitter}/>
         <img src={youtube}/>
         <img src={pinterest}/>
@@ -32,7 +32,7 @@ const Booster = () => {
         <img src={diigo}/>      
         <img src={tumblr}/>
         <img src={telegram}/> 
-        <img src={instagram}/>       */}
+        <img src={instagram}/>      
       </div>
     </div>
   )
