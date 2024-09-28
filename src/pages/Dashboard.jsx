@@ -1,8 +1,9 @@
-import Links from '../components/Links'
+import Links from '../components/dashboardEl/Links'
+// import Links from ''
 import Navbar from '../components/Navbar'
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/dashboardEl/Sidebar'
 import Footer from '../components/Footer'
-import MainElements from '../components/MainElements'
+import MainElements from '../components/dashboardEl/MainElements'
 import "./home.scss";
 
 const Dashboard = () => {
