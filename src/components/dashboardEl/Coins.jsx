@@ -1,11 +1,12 @@
 // import "./business.scss";
-import Monthly from "../components/coins/Monthly";
-import BuyCoins from "../components/coins/BuyCoins";
-import BuyPremium from "../components/coins/BuyPremium";
-import BuyActive from "../components/coins/BuyActive";
-import BuyFeature from "../components/coins/BuyFeature";
-import BuyBulk from "../components/coins/BuyBulk";
-import ReedemCoupon from "../components/coins/RedeemCoupon";
+// import Monthly from "../components/coins/Monthly";
+import Monthly from "../coins/Monthly";
+import BuyCoins from "../coins/BuyCoins";
+import BuyPremium from "../coins/BuyPremium";
+import BuyActive from "../coins/BuyActive";
+import BuyFeature from "../coins/BuyFeature";
+import BuyBulk from "../coins/BuyBulk";
+import ReedemCoupon from "../coins/RedeemCoupon";
 
 const Coins = () => {
   return (
