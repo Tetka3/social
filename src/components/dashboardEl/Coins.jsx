@@ -29,4 +29,4 @@ const Coins = () => {
   )
 }
 
-export default Coins
+export default Coins;

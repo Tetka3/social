@@ -27,4 +27,4 @@ const MainElements = () => {
   )
 }
 
-export default MainElements
+export default MainElements;
