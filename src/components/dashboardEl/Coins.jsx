@@ -1,5 +1,4 @@
 // import "./business.scss";
-// import Monthly from "../components/coins/Monthly";
 import Monthly from "../coins/Monthly";
 import BuyCoins from "../coins/BuyCoins";
 import BuyPremium from "../coins/BuyPremium";
