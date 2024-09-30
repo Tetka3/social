@@ -1,6 +1,4 @@
 
-import React from 'react'
-
 const Support = () => {
   return (
     <div>
@@ -9,5 +7,5 @@ const Support = () => {
   )
 }
 
-export default Support
+export default Support;
 

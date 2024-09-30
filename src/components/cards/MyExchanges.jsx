@@ -1,4 +1,4 @@
-import "./cards.scss";
+import "./cards.css";
 
 const MyExchanges = () => {
   return (
@@ -51,4 +51,4 @@ const MyExchanges = () => {
   )
 }
 
-export default MyExchanges
+export default MyExchanges;

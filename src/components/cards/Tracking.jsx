@@ -1,4 +1,4 @@
-import "./cards.scss";
+import "./cards.css";
 
 const Tracking = () => {
     return (
@@ -29,4 +29,4 @@ const Tracking = () => {
     )
 }
 
-export default Tracking
+export default Tracking;
