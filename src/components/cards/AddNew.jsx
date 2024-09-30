@@ -1,4 +1,4 @@
-import "./cards.scss";
+import "./cards.css";
 
 const AddNew = () => {
   return (
@@ -42,4 +42,4 @@ const AddNew = () => {
   )
 }
 
-export default AddNew
+export default AddNew;

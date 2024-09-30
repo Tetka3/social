@@ -1,4 +1,4 @@
-import "./cards.scss";
+import "./cards.css";
 import start from "../../assets/start.mp4";
 
 const Home = () => {
@@ -33,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

@@ -1,4 +1,4 @@
-import "./cards.scss";
+import "./cards.css";
 
 const MyAffilliate = () => {
     return (
@@ -88,4 +88,4 @@ const MyAffilliate = () => {
     )
 }
 
-export default MyAffilliate
+export default MyAffilliate;
