@@ -1,5 +1,5 @@
-import "./styles.scss";
-import paypal from "../../assets/paypal.jpg"
+import "./styles.css";
+import paypal from "../../assets/paypal.jpg";
 
 const BuyFeature = () => {
   return (
@@ -35,4 +35,4 @@ const BuyFeature = () => {
   )
 }
 
-export default BuyFeature
+export default BuyFeature;

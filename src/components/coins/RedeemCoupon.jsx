@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./styles.css";
 
 const RedeemCoupon = () => {
   return (
@@ -16,4 +16,4 @@ const RedeemCoupon = () => {
   )
 }
 
-export default RedeemCoupon
+export default RedeemCoupon;

@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./styles.css";
 import paypal from "../../assets/paypal.jpg"
 
 const BuyActive = () => {
