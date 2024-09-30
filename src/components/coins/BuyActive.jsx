@@ -1,5 +1,5 @@
 import "./styles.css";
-import paypal from "../../assets/paypal.jpg"
+import paypal from "../../assets/paypal.jpg";
 
 const BuyActive = () => {
   return (
@@ -35,4 +35,4 @@ const BuyActive = () => {
   )
 }
 
-export default BuyActive
+export default BuyActive;
