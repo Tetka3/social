@@ -11,15 +11,13 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
-    gap: 5px;
-         
+    gap: 5px;         
 }    
 .elementals{
     display: flex;
     gap: 10px;
     margin-left: 30px;
-    margin-right: 30px;
-    
+    margin-right: 30px;   
 }
 .login{ 
     display: flex;
@@ -33,17 +31,14 @@
     margin: 50px auto;
     padding: 20px;
     border-radius: 3px;
-
-    
-    .member{
-        p{
-            .link{
-                list-style: none;
-            }
-        }
-    } 
-    
 }
+.member{
+    p{
+        .link{
+            list-style: none;
+        }
+    }
+} 
 .loginForm{
     display: flex;
     flex-direction: column;
@@ -68,29 +63,26 @@
     padding: 20px;
     gap:20px;
     background-color: rgb(207, 188, 188);
-    .imaged{
-        display: flex;        
-        justify-content: center;
+}
+.imaged{
+    display: flex;        
+    justify-content: center;
 
-        img{
-            height: 50px;
-            width: 50px;
-        }
-    }
-
-    .registerForm{
-        display: flex;
-        flex-direction: column;
-        gap: 2px;
-    }
-    button{
-        background-color: blue;
-        border: none;
-        padding: 5px;
-        border-radius: 3px;
-        color:white;
-        cursor: pointer;
+    img{
+        height: 50px;
+        width: 50px;
     }
 }
-
-
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+button{
+    background-color: blue;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    color:white;
+    cursor: pointer;
+}
