@@ -45,14 +45,14 @@
     width: 50%;  
      
 } */
-/* .loginForm button{
+.loginForm button{
     padding: 5px 5px;
     color: white;
     background-color: blue;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-}      */
+}     
 .register{
     display: flex;
     flex-direction: column;
