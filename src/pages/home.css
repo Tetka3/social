@@ -31,13 +31,13 @@
     padding: 20px;
     border-radius: 3px;
 }
-/* .member{
+.member{
     p{
         .link{
             list-style: none;
         }
     }
-}  */
+} 
 /* .loginForm{
     display: flex;
     flex-direction: column;
