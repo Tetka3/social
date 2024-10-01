@@ -53,7 +53,7 @@
     border-radius: 3px;
     cursor: pointer;
 }      */
-/* .register{
+.register{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -62,25 +62,25 @@
     padding: 20px;
     gap:20px;
     background-color: rgb(207, 188, 188);
-} */
-/* .imaged{
+}
+.imaged{
     display: flex;        
     justify-content: center;
-    /* img{
+     img{
         height: 50px;
         width: 50px;
-    /* } */
- 
-/* .registerForm{
+    }
+} 
+.registerForm{
     display: flex;
     flex-direction: column;
     gap: 2px;
-} */
-/* button{
+}
+button{
     background-color: blue;
     border: none;
     padding: 5px;
     border-radius: 3px;
     color:white;
     cursor: pointer;
-} */
+}
