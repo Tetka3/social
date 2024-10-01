@@ -38,13 +38,12 @@
         }
     }
 } 
-/* .loginForm{
+.loginForm{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 50%;  
-     
-} */
+    width: 50%;      
+}
 .loginForm button{
     padding: 5px 5px;
     color: white;
