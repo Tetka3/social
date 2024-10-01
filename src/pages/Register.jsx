@@ -1,4 +1,4 @@
-import "./home.scss";
+import "./home.css";
 import write from "../assets/write.png";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";

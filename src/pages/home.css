@@ -1,17 +1,17 @@
 /* @import "../responsive.scss"; */
 
-/* .home{
+.home{
     display: flex;
     flex-direction: column;
     gap: 10px;      
-} */
-/* .about, .cards{
+}
+.about, .cards{
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
     gap: 5px;         
-}     */
+}    
 /* .elementals{
     display: flex;
     gap: 10px;

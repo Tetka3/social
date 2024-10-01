@@ -6,7 +6,7 @@ import Business from '../components/mainEl/Business';
 import Follow from '../components/mainEl/Follow';
 import Booster from '../components/mainEl/Booster';
 import Bookmark from '../components/mainEl/Bookmark';
-import "./home.scss";
+import "./home.css";
 import System from "../components/mainEl/System";
 import Comments from "../components/mainEl/Comments";
 import NavbarHome from '../components/NavbarHome';

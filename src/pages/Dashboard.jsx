@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/dashboardEl/Sidebar';
 import Footer from '../components/Footer';
 import MainElements from '../components/dashboardEl/MainElements';
-import "./home.scss";
+import "./home.css";
 
 const Dashboard = () => {
   return (
