@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import social from "../assets/social.jpg";
-import "./navbar.scss";
+import "./navbar.css";
 
 
 const Navbar = () => {
