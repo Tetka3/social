@@ -9,42 +9,34 @@
     height: 80px;
     background-image: url("../assets/bg.jpg");
     background-size: cover;
+}
+.leftnav{
+    display: flex;
+    gap: 10px;
+    flex: 2;
+    margin-left: 20px;
     
-    .leftnav{
+    
+    .rightDiv{
         display: flex;
-        gap: 10px;
-        flex: 2;
-        margin-left: 20px;
-        
-        .leftDiv{
-            img{
-                height: 40px;
-                width: 40px;
-                border-radius: 5px;
-                cursor: pointer;
-            }
+        flex-direction: column; 
+        color: orange; 
+        height: 40px;
+        margin-top: auto;            
+        p, span{
+            font-size: 12px;
         }
-        .rightDiv{
-            display: flex;
-            flex-direction: column; 
-            color: orange; 
-            height: 40px;
-            margin-top: auto;            
-            p, span{
-                font-size: 12px;
-            }
-        }
-        
     }
+    
     .centernav{
         flex: 2;
     }
-    .rightnav{
+.rightnav{
         display: flex;
         flex: 2;
         justify-content: flex-end;
         margin-right: 20px;
-        // position: relative;
+        /* position: relative; */
         .login{
             position: absolute;
             top: 0;
@@ -61,7 +53,13 @@
             border-radius: 5px;
             cursor: pointer;
         }
+    }    
+
+.leftDiv{
+    img{
+        height: 40px;
+        width: 40px;
+        border-radius: 5px;
+        cursor: pointer;
     }
-   
-    
 }
