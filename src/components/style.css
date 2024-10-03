@@ -16,6 +16,12 @@
     flex: 2;
     margin-left: 20px;
 } 
+.leftDiv img{    
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;    
+}
     
 .rightDiv{
     display: flex;
@@ -45,14 +51,7 @@
     }
 }     */ */
 
-.leftDiv{
-    img{
-        height: 40px;
-        width: 40px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-}
+
 .login{
     position: absolute;
     top: 0;
