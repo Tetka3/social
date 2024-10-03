@@ -47,8 +47,8 @@
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-}    
-
+    margin-left: 3px;
+} 
 
 .login{
     position: absolute;
