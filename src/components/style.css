@@ -28,28 +28,26 @@
     flex-direction: column; 
     color: orange; 
     height: 40px;
-    margin-top: auto;            
-    p, span{
-        font-size: 12px;
-    }
+    margin-top: auto;   
 }
-    
+.rightDiv p, span{
+    font-size: 12px;
+}    
 .centernav{
     flex: 2;
 }
-/* .rightnav{
+.rightnav{
     display: flex;
     flex: 2;
     justify-content: flex-end;
     margin-right: 20px;
-    /* position: relative; */
-        
-    /* button{
-        padding: 5px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-}     */ */
+    position: relative;    
+}
+.rightnav button{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}    
 
 
 .login{
