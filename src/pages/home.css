@@ -64,12 +64,12 @@
 }
 .imaged{
     display: flex;        
-    justify-content: center;
-     img{
-        height: 50px;
-        width: 50px;
-    }
+    justify-content: center;     
 } 
+.imaged img{
+    height: 50px;
+    width: 50px;
+}
 .registerForm{
     display: flex;
     flex-direction: column;
