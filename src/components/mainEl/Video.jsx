@@ -1,4 +1,4 @@
-import "./business.scss";
+import "./business.css";
 import video from "../../assets/video.png";
 import { Link } from "react-router-dom";
 

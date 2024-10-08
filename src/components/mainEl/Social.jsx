@@ -1,4 +1,4 @@
-import "./business.scss";
+import "./business.css";
 import social from "../../assets/network.png";
 
 const Social = () => {

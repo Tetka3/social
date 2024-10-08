@@ -1,4 +1,4 @@
-import "./business.scss";
+import "./business.css";
 import system from "../../assets/system.png";
 
 const System = () => {

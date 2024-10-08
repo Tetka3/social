@@ -1,4 +1,4 @@
-import "./business.scss";
+import "./business.css";
 import fb from "../../assets/fb.png";
 import vk from "../../assets/vk.jpg";
 import tumblr from "../../assets/tumblr.png";
