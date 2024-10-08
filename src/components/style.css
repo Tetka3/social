@@ -94,8 +94,8 @@
 .bottom ul li{
     display: inline;
     margin-right: 20px;
-    cursor: pointer;                
-    &:hover{
-        text-decoration: underline;
-    }
+    cursor: pointer;       
+}
+.bottom ul li &:hover{
+    text-decoration: underline;
 }
