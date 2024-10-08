@@ -1,4 +1,4 @@
-// import "./business.scss";
+import "./style.css";
 
 const Footer = () => {
   return (
