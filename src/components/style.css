@@ -82,10 +82,7 @@
     flex-direction: column;
     justify-content: space-between;        
     
-    p{
-        float: right;
-        text-align: right;            
-    }
+    
 }
 .bottom ul{
     list-style: none;
@@ -98,4 +95,8 @@
 }
 .bottom ul li &:hover{
     text-decoration: underline;
+}
+.bottom p{
+    float: right;
+    text-align: right;            
 }
