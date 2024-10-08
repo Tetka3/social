@@ -70,32 +70,30 @@
     flex-direction: column;
     gap: 10px;
     margin: 10px 0px 0px 0px;
-    padding: 20px;
-    
-    .bottom{
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;        
-        ul{
-            list-style: none;
-            li{
-                display: inline;
-                margin-right: 20px;
-                cursor: pointer;                
-                &:hover{
-                    text-decoration: underline;
-                }
-            }
-        }
-        p{
-            float: right;
-            text-align: right;            
-        }
-    }
-
+    padding: 20px;  
 }
 .top{
     flex: 1;
     border-bottom: 1px solid white;        
+}
+.bottom{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;        
+    ul{
+        list-style: none;
+        li{
+            display: inline;
+            margin-right: 20px;
+            cursor: pointer;                
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    p{
+        float: right;
+        text-align: right;            
+    }
 }
