@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Bonus from "./Bonus";
-import "./business.css";
+import "./links.css";
+// import "./business.css";
 import Buttons from './Buttons';
 import EarnCoins from "./EarnCoins";
 import Updates from "./Updates";
