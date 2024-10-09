@@ -1,5 +1,5 @@
 import Coins from "./Coins";
-// import "./business.scss";
+import "./business.css";
 import AddNew from "../cards/AddNew";
 import Tracking from "../cards/Tracking";
 import MyExchanges from "../cards/MyExchanges";
