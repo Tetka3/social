@@ -100,22 +100,20 @@
 .custom p {
     margin-top: 5px;
 }
+.network {
+    background-color: rgb(51, 122, 183);
+    padding: 10px;
+    color: white;
+}
 
+.addInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 
-    .network {
-        background-color: rgb(51, 122, 183);
-        padding: 10px;
-        color: white;
+    .para-info {
+        text-align: center;
     }
-
-    .addInfo {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-
-        .para-info {
-            text-align: center;
-        }
 
         .info-btns {
             display: flex;
