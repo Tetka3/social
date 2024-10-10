@@ -269,38 +269,40 @@
     border: 1px solid blue;
     border-radius: 5px;
     background-color: rgb(225, 230, 254);
-    .top-menu {
-        background-color: rgb(51, 122, 183);
-        padding: 10px;
-        color: white;
-    }
-    .bottom-menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px;
-        label{
-            text-align: center;
-        }
-    }
+}
+.top-menu {
+    background-color: rgb(51, 122, 183);
+    padding: 10px;
+    color: white;
+}
+.bottom-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.bottom-menu label{
+    text-align: center;
 }
 .dashboard-home{
     display: flex;
-    flex-direction: column;    
-    .card-input{
-        border: 1px solid rgb(109, 109, 182);
-        border-radius: 3px;
-        height: 70vh;
-        video{
-            height: 100%;
-            width: 100%;
-            object-fit: fill;
-        }
-    }
-    .member-actions{
-        display: flex;
-        gap: 20px;
-        margin-top: 20px;
+    flex-direction: column; 
+}   
+.card-input{
+    border: 1px solid rgb(109, 109, 182);
+    border-radius: 3px;
+    height: 70vh;
+}
+.card-input video{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.member-actions{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
         .current-actions{
             flex: 1;
             border: 1px solid rgb(109, 109, 182);
