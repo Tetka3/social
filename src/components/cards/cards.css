@@ -1,23 +1,21 @@
 .exchanges {
     display: flex;
     flex-direction: column;
-
     border: 1px solid rgb(226, 210, 210);
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    min-height: max-content;
+}
+.top1 {
+    height: 40px;
+}
+.top1 p {
+    background-color: rgb(51, 122, 183);
+    padding: 5px;
+}
 
-
-    .top {
-        display: flex;
-        flex-direction: column;
-        min-height: max-content;
-
-        .top1 {
-            height: 40px;
-
-            p {
-                background-color: rgb(51, 122, 183);
-                padding: 5px;
-            }
-        }
 
         .btn1 {
             background-color: rgb(225, 230, 254);
