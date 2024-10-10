@@ -15,35 +15,25 @@
     background-color: rgb(51, 122, 183);
     padding: 5px;
 }
-
-
-        .btn1 {
-            background-color: rgb(225, 230, 254);
-            padding: 10px;
-
-            button {
-                padding: 2px;
-            }
-
-            p {
-                margin-top: 2px;
-            }
-
-        }
-
-        .top2 {
-            p {
-                background-color: rgb(51, 122, 183);
-                padding: 5px;
-            }
-        }
-    }
-
-    .bottom {
-        display: flex;
-        flex-direction: column;
-    }
+.btn1 {
+    background-color: rgb(225, 230, 254);
+    padding: 10px;
 }
+.btn1 button {
+    padding: 2px;
+}
+.btn1 p {
+    margin-top: 2px;
+}
+.top2 p {
+    background-color: rgb(51, 122, 183);
+    padding: 5px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .addNew {
     display: flex;
