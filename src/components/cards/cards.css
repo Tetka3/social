@@ -136,12 +136,12 @@
 .delete-btn button {
     padding: 10px;
     cursor: pointer;
+}  
+.addSearch {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
-  
-    .addSearch {
-        display: flex;
-        justify-content: space-between;
-        margin: 20px;
 
         .search {
             flex: 3;
