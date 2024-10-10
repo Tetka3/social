@@ -198,44 +198,41 @@
     padding: 10px;
     color: white;
 }
-
-    .btns {
-        padding: 10px;
-    }
-
-    .input-links {
-        padding: 10px;
-    }
+.btns {
+    padding: 10px;
 }
-
+.input-links {
+    padding: 10px;
+}
 .your-links {
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     gap: 10px;
+}
 
-    .left-links {
-        flex: 1;
-        border: 1px solid blue;
-        border-radius: 5px;
-        background-color: rgb(225, 230, 254);
-        .top-menu {
-            background-color: rgb(51, 122, 183);
-            padding: 10px;
-            color: white;
-        }
-    }
-
-    .center-links {
-        flex: 1;
-        border: 1px solid blue;
-        border-radius: 5px;
-        background-color: rgb(225, 230, 254);
-        .top-menu {
-            background-color: rgb(51, 122, 183);
-            padding: 10px;
-            color: white;
-        }
+.left-links {
+    flex: 1;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: rgb(225, 230, 254);
+}
+.top-menu {
+    background-color: rgb(51, 122, 183);
+    padding: 10px;
+    color: white;
+}
+.center-links {
+    flex: 1;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: rgb(225, 230, 254);
+}
+.top-menu {
+    background-color: rgb(51, 122, 183);
+    padding: 10px;
+    color: white;
+}
         .bottom-menu{
             display: flex;
             flex-direction: column;
