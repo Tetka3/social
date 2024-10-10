@@ -110,35 +110,34 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-
-    .para-info {
-        text-align: center;
-    }
-
-        .info-btns {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-
-            .enabled,
-            .edit-link,
-            .boost,
-            .delete-btn {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 10px;
-                margin-top: 10px;
-
-                button {
-                    padding: 10px;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-
+}
+.para-info {
+    text-align: center;
+}
+.info-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.enabled,
+.edit-link,
+.boost,
+.delete-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.enabled,
+.edit-link,
+.boost,
+.delete-btn button {
+    padding: 10px;
+    cursor: pointer;
+}
+  
     .addSearch {
         display: flex;
         justify-content: space-between;
