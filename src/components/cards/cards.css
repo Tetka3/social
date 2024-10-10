@@ -82,28 +82,25 @@
     border: 1px solid rgb(168, 168, 212);
     border-radius: 5px;
 }
+.addExchange {
+    background-color: rgb(51, 122, 183);
+    padding: 10px;
+    color: white;
+}
+.custom {
+    padding: 20px;
+}
+.custom button {
+    padding: 5px;
+    background-color: rgb(43, 238, 173);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.custom p {
+    margin-top: 5px;
+}
 
-    .addExchange {
-        background-color: rgb(51, 122, 183);
-        padding: 10px;
-        color: white;
-    }
-
-    .custom {
-        padding: 20px;
-
-        button {
-            padding: 5px;
-            background-color: rgb(43, 238, 173);
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-
-        p {
-            margin-top: 5px;
-        }
-    }
 
     .network {
         background-color: rgb(51, 122, 183);
