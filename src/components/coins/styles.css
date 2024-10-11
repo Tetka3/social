@@ -77,15 +77,15 @@
     cursor: pointer;
     border-radius: 5px;                  
 }
-
-        .orders{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            button{
-                padding: 0px 0px 0px;
-            }
-        }
+.orders{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+    button{
+        padding: 0px 0px 0px;
+    }
+}
         .info{
             color: blue;  
         }
