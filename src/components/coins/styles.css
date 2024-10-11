@@ -40,12 +40,8 @@
 .orders button{
     padding: 0px 0px 0px;
 }
-
-        .info{
-            color: blue;  
-        }
-        
-    }
+.info{
+    color: blue;  
 }
 .bulk{
     display: flex;
