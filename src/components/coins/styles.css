@@ -182,24 +182,25 @@
     height: 25vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
-    .top{
-        color: white;
-        background-color: rgb(48, 116, 71);
-        height: 30%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-top-left-radius: 3px;       
-        border-top-right-radius: 3px;       
-    }
-    .bottom{ 
-        padding: 5px;       
-        input{
-            width: 100%;
-            padding: 3px;
-            border: 0.5px solid rgb(235, 215, 215);
-        }  
-    }
+}
+.top{
+    color: white;
+    background-color: rgb(48, 116, 71);
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 3px;       
+    border-top-right-radius: 3px;       
+}
+.bottom{ 
+    padding: 5px;
+}       
+.bottom input{
+    width: 100%;
+    padding: 3px;
+    border: 0.5px solid rgb(235, 215, 215);
+}  
     .info{
         display: flex;
         align-items: center;
