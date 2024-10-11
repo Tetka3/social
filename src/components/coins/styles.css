@@ -201,21 +201,19 @@
     padding: 3px;
     border: 0.5px solid rgb(235, 215, 215);
 }  
-    .info{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        button{
-            background-color: green;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-            color: white;
-            cursor: pointer;
-        }
-    }        
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.info button{
+    background-color: green;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
 .monthly{
     display: flex;
     flex-direction: column;
@@ -224,6 +222,7 @@
     height: 40vh;
     background-color: rgb(225,230,254);
     border-radius: 3px;
+}
     .top{
         color: white;
         background-color: rgb(48, 116, 71);
