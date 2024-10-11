@@ -82,15 +82,11 @@
     flex-direction: column;
     width: 100%;
 }
-    button{
-        padding: 0px 0px 0px;
-    }
+.orders button{
+    padding: 0px 0px 0px;
 }
-        .info{
-            color: blue;  
-        }
-        
-    }
+.info{
+    color: blue;  
 }
 .coins{
     display: flex;
