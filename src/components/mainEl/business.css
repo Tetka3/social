@@ -67,37 +67,30 @@
     padding: 20px;
     border-radius: 5px;
     margin-top: 0px;
-    overflow: auto;
-
-    button{
-        padding: 5px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: rgb(11,102,35);
-        color: white;
-        cursor: pointer;        
-    }
+    overflow: auto;    
 }
 .booster{
     display: flex;
-    flex-direction: column;        
-    .info{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;        
+    flex-direction: column;
+}        
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;        
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:  5px;
+    cursor: pointer; 
+}     
+    img{
+        height:40px;
+        width:40px;
+        margin-top: 5px;
+        border-radius: 3px;
     }
-    .socials{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap:  5px;
-        cursor: pointer;      
-        img{
-            height:40px;
-            width:40px;
-            margin-top: 5px;
-            border-radius: 3px;
-        }
     }
 }
 .system{
