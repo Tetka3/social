@@ -99,18 +99,20 @@
     border-bottom: 1px solid rgb(224, 211, 211);
     border-top: 1px solid rgb(224, 211, 211);;
     padding: 20px;
-    .leftSystem{
-        flex: 1;        
-        p{
-            font-size: 14px;
-            font-weight: 400;
-            margin-bottom: 20px;
-        }
-        img{
-            height: 120px;
-            width: 70%;
-            object-fit: contain;
-        }
+}
+.leftSystem{
+    flex: 1; 
+}       
+.leftSystem p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.leftSystem img{
+    height: 120px;
+    width: 70%;
+    object-fit: contain;
+}
 
     }
     .explanation{
