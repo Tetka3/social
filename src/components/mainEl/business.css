@@ -85,13 +85,11 @@
     gap:  5px;
     cursor: pointer; 
 }     
-    img{
-        height:40px;
-        width:40px;
-        margin-top: 5px;
-        border-radius: 3px;
-    }
-    }
+.socials img{
+    height:40px;
+    width:40px;
+    margin-top: 5px;
+    border-radius: 3px;
 }
 .system{
     display: flex;
