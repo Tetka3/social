@@ -187,26 +187,14 @@
     border: 1px solid rgb(59, 150, 150);
     border-radius: 3px;
 }
-    .yourBonus{
-        background-color: rgb(59, 150, 150);
-        padding: 10px;
-    }
-    .details{
-        display: flex;
-        flex-direction: column;
-        padding: 2px;
-        button{
-            background-color: aquamarine;
-            border: none;
-            padding: 5px;
-            cursor: pointer;
-            margin-top: 3px;
-            border-radius: 3px;
-            margin-bottom: 3px;
-        }
-        
-    }
-
+.yourBonus{
+    background-color: rgb(59, 150, 150);
+    padding: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;        
 }
 .updates{
     display: flex;
