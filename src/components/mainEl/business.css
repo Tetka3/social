@@ -171,15 +171,14 @@
     border: 1px solid rgb(59, 150, 150);
     border-radius: 3px;
 }
-    .account{
-        background-color: rgb(59, 150, 150);
-        padding: 10px;
-    }
-    .details{
-        display: flex;
-        flex-direction: column;
-        padding: 2px;        
-    }
+.account{
+    background-color: rgb(59, 150, 150);
+    padding: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;        
 }
 .bonus{
     display: flex;
@@ -187,6 +186,7 @@
     margin-top: 20px;
     border: 1px solid rgb(59, 150, 150);
     border-radius: 3px;
+}
     .yourBonus{
         background-color: rgb(59, 150, 150);
         padding: 10px;
