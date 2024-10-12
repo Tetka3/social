@@ -113,12 +113,9 @@
     width: 70%;
     object-fit: contain;
 }
-
-    }
-    .explanation{
-        flex: 3;
-        margin-top: 20px;
-    }
+.explanation{
+    flex: 3;
+    margin-top: 20px;
 }
 .comments{
     margin-left: 20px;
