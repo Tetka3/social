@@ -1,26 +1,27 @@
 .hero{
     height: 520px;    
     margin: 0;
-    padding: 0;  
-    .video{
-        display: flex;
-        align-items: center;        
-        height: 100%;
-        width: 100%;
-        
-        video{
-            height: inherit;
-            width: 100%;
-            object-fit: fill;        
-        }
-        .text{
-            position: absolute;
-            background-color: red;
-            border-radius: 5px;
-            padding: 5px;
-            max-width: max-content;
-            margin-left: 10px;
-            bottom: 80px;
+    padding: 0;
+}  
+.video{
+    display: flex;
+    align-items: center;        
+    height: 100%;
+    width: 100%;
+}
+.video video{
+    height: inherit;
+    width: 100%;
+    object-fit: fill;        
+}
+.text{
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: max-content;
+    margin-left: 10px;
+    bottom: 80px;
                         
             button{
                 margin-top: 5px;
