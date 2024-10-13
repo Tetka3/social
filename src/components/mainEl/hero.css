@@ -22,11 +22,11 @@
     max-width: max-content;
     margin-left: 10px;
     bottom: 80px;
-                        
-            button{
-                margin-top: 5px;
-                cursor: pointer;
-            }
+}
+.text button{
+    margin-top: 5px;
+    cursor: pointer;
+}
         }
     }
 }
