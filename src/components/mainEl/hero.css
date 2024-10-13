@@ -38,9 +38,10 @@
     padding: 0;
 }
 .menu ul li{
-            padding: 5px;            
-            margin-bottom: 5px;
-            background-color: rgb(221, 217, 217);
+    padding: 5px;            
+    margin-bottom: 5px;
+    background-color: rgb(221, 217, 217);
+}
             &:hover{
                 background-color: rgb(67, 117, 67);
                 color: white;
