@@ -27,18 +27,17 @@
     margin-top: 5px;
     cursor: pointer;
 }
-        }
-    }
-}
 .menu{
     color: green;
     border: 1px solid rgb(172, 164, 164);
     border-radius: 3px;
     margin-bottom: 10px;
-    ul{
-        list-style: none;
-        padding: 0;
-        li{
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+.menu ul li{
             padding: 5px;            
             margin-bottom: 5px;
             background-color: rgb(221, 217, 217);
