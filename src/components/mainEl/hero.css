@@ -1,5 +1,7 @@
 .hero{
-    height: 520px;    
+    display: flex;
+    flex-direction: column;
+    height: 520px;   
     margin: 0;
     padding: 0;
 }  
@@ -8,11 +10,16 @@
     align-items: center;        
     height: 100%;
     width: 100%;
+    /* width: 0px; */
+    /* width: 100%; */
+    
 }
 .video video{
-    height: inherit;
+    /* height: inherit; */
+    height: 100%;
     width: 100%;
-    object-fit: fill;        
+    object-fit: fill; 
+           
 }
 .text{
     position: absolute;
