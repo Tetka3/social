@@ -3,7 +3,7 @@
 .home{
     display: flex;
     flex-direction: column;
-    gap: 10px;      
+    gap: 10px;
 }
 .about, .cards{
     margin-top: 5px;

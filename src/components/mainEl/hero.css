@@ -1,11 +1,12 @@
 .hero{
     display: flex;
     flex-direction: column;
-    height: 520px;   
+    height: 20px;   
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }  
-.video{
+/* .video{
     display: flex;
     align-items: center;        
     height: 100%;
@@ -13,7 +14,7 @@
     /* width: 0px; */
     /* width: 100%; */
     
-}
+} */
 .video video{
     /* height: inherit; */
     height: 100%;

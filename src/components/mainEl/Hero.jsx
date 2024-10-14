@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
     <div className="hero">      
-      <video src={start} autoPlay loop muted />      
+      {/* <video src={start} autoPlay loop muted />       */}
       <div className="text">
         <p>Get Followers and Likes</p>
         <button onClick={() => navigate('/register')}>Register</button>
