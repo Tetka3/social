@@ -87,7 +87,7 @@
     margin-right: 20px;
     cursor: pointer;       
 }
-.bottom-footer ul li &:hover{
+.bottom-footer ul li:hover{
     text-decoration: underline;
 }
 .bottom-footer p{
