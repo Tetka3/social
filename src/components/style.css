@@ -69,28 +69,28 @@
     margin: 10px 0px 0px 0px;
     padding: 20px;  
 }
-.top{
+.top-footer{
     flex: 1;
     border-bottom: 1px solid white; 
 }
-.bottom{
+.bottom-footer{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
 }
-.bottom ul{
+.bottom-footer ul{
     list-style: none;    
 }
-.bottom ul li{
+.bottom-footer ul li{
     display: inline;
     margin-right: 20px;
     cursor: pointer;       
 }
-.bottom ul li &:hover{
+.bottom-footer ul li &:hover{
     text-decoration: underline;
 }
-.bottom p{
+.bottom-footer p{
     float: right;
     text-align: right;            
 }
