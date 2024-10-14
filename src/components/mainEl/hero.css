@@ -9,8 +9,7 @@
     height: inherit;
     height: 100%;
     width: 100%;
-    object-fit: fill; 
-           
+    object-fit: fill;            
 }
 .text{
     position: absolute;
@@ -40,7 +39,7 @@
     margin-bottom: 5px;
     background-color: rgb(221, 217, 217);
 }
-.menu ul li&:hover{
+.menu ul li &:hover{
     background-color: rgb(67, 117, 67);
     color: white;
     cursor: pointer;

@@ -71,7 +71,7 @@
 }
 .top{
     flex: 1;
-    border-bottom: 1px solid white;        
+    border-bottom: 1px solid white; 
 }
 .bottom{
     flex: 1;
@@ -80,8 +80,7 @@
     justify-content: space-between; 
 }
 .bottom ul{
-    list-style: none;
-    
+    list-style: none;    
 }
 .bottom ul li{
     display: inline;
