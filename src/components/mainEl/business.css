@@ -154,9 +154,6 @@
 .right{
     width: 50%;
 }  
-.earnCoins{
-    margin: 10px 0px 10px 0px;
-}
 .yourAccount{
     display: flex;
     flex-direction: column;

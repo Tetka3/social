@@ -1,6 +1,4 @@
 import "./links.css";
-// import "./business.css";
-
 
 const EarnCoins = ({ onAdd }) => {  
 
