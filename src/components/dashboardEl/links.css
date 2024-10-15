@@ -41,8 +41,10 @@
     width: 50%; 
 } 
 .leftButtons button, .rightButtons button{
-    background-color: green;
-    margin-bottom: 2px; 
+    background-color: rgb(140, 190, 140);
+    margin-bottom: 2px;
+    color: white;
+    width: 100%;
 } 
 
 
