@@ -1,5 +1,4 @@
 import "./links.css";
-// import "./business.css";
 
 const Buttons = () => {
   return (
@@ -18,4 +17,4 @@ const Buttons = () => {
   )
 }
 
-export default Buttons
+export default Buttons;
