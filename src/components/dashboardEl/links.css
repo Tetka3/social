@@ -53,8 +53,10 @@
 .earnCoins{
     margin: 10px 0px 10px 0px;
 }
-.earnCoins{
-    margin: 10px 0px 10px 0px;
+.earnCoins button{
+    width: 100%;
+    color: white;
+    background-color: aquamarine;
 }
 
 
