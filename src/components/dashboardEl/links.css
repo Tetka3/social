@@ -36,7 +36,7 @@
     display: flex;
     gap: 1px;
     margin-top: 20px;
-    height: 12%;
+    height: 100px;
 }    
 .leftButtons, .rightButtons{
     width: 50%; 
