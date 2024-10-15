@@ -32,6 +32,18 @@
 .right{
     flex: 1;   
 }
+.buttons{
+    display: flex;
+    gap: 1px;
+    margin-top: 20px;
+}    
+.leftButtons, .rightButtons{
+    width: 50%; 
+} 
+.leftButtons button, .rightButtons button{
+    background-color: green;
+    margin-bottom: 2px; 
+} 
 
 
     
