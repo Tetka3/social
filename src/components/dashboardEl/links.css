@@ -61,7 +61,21 @@
     padding: 8px;
     cursor: pointer;
 }
-
+.yourAccount{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(59, 150, 150);
+    border-radius: 3px;
+}
+.account{
+    background-color: rgb(59, 150, 150);
+    padding: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;        
+}
 
     
     
