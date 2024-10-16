@@ -1,3 +1,4 @@
+import './links.css';
 
 const YourAccount = () => {
   return (
@@ -20,4 +21,4 @@ const YourAccount = () => {
   )
 }
 
-export default YourAccount
+export default YourAccount;
