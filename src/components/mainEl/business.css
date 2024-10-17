@@ -154,23 +154,6 @@
 .right{
     width: 50%;
 }
-.updates{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid rgb(59, 150, 150);
-    border-radius: 3px;
-}
-.recentUpdates{
-    background-color: rgb(59, 150, 150);
-    padding: 10px;
-}
-.details{
-    display: flex;
-    flex-direction: column;
-    padding: 2px;
-}
 .coined{
     display: flex;
     flex-direction: column;
