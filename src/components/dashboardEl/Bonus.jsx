@@ -1,5 +1,4 @@
 import "./links.css"
-// import "./business.css"
 
 const Bonus = () => {
   return (
